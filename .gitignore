@@ -1,7 +1,7 @@
 *.doc
 *.docx
 *.pyc
-*.gz
-*.zip
-*.rar
+#*.gz
+#*.zip
+#*.rar
 __ignore__.*
