@@ -1,4 +1,4 @@
-import gzip, cPickle
+import gzip, cPickle, os
 import numpy as np
 
 def load_data(dataset):
@@ -31,13 +31,13 @@ def load_data(dataset):
 ##############################
 # read data
 
-Xtrain, ytrain, XCV, yCV, Xtest, ytest = load_data("mnist.pkl.gz")
+# Xtrain, ytrain, XCV, yCV, Xtest, ytest = load_data("mnist.pkl.gz")
 
 # Check the shape of these variables
 # Hopefully numpy is helpful
-Xtrain = np.array(Xtrain)
-XCV    = np.array(XCV)
-Xtest  = np.array(Xtest)
+# Xtrain = np.array(Xtrain)
+# XCV    = np.array(XCV)
+# Xtest  = np.array(Xtest)
 
 # Check the sizes of these numpy arrays
 # print Xtrain.shape
