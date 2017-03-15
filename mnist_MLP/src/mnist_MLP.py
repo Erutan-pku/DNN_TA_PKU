@@ -30,19 +30,21 @@ def getModel() :
 def getModelPara(Para) :
     model_layers = Para['model_layers']
     layers_num = len(model_layers['denseSize'])
-    if not type(model_layers['activation']) is list :
-        model_layers['activation'] = [model_layers['activation'] for i in range(layers_num)]
-    if not type(model_layers['dropout']) is list :
-        model_layers['dropout']    = [model_layers['dropout']    for i in range(layers_num)]
-    assert len(model_layers['activation']) == layers_num
-    assert len(model_layers['dropout'])    == layers_num
+    activations = model_layers['activation']
+    dropouts = model_layers['dropout']
+    if not type(activations) is list :
+        activations = [model_layers['activation'] for i in range(layers_num)]
+    if not type(dropouts) is list :
+        dropouts = [model_layers['dropout'] for i in range(layers_num)]
+    assert len(activations) == layers_num
+    assert len(dropouts)    == layers_num
 
     Input_tensor = Input(shape=(784, ), dtype='float32', name='Input_tensor')
     dense_compute = Input_tensor
     for i in range(layers_num) :
-        dense_compute = Dense(model_layers['denseSize'][i], activation=model_layers['activation'][i])(dense_compute)
-        if not model_layers['dropout'][i] == 0:
-            dense_compute = Dropout(model_layers['dropout'][i])(dense_compute)
+        dense_compute = Dense(model_layers['denseSize'][i], activation=activations[i])(dense_compute)
+        if not dropouts[i] == 0:
+            dense_compute = Dropout(dropouts[i])(dense_compute)
     output = Dense(10, activation='softmax')(dense_compute)
 
     model = Model(input=Input_tensor, output=output)
@@ -65,7 +67,7 @@ def minist_MLP(Para=None):
     MLP_Model = getModelPara(Para)
     histories, scores = [], []
     for i in range(Para['nb_epoch']) :
-        history = MLP_Model.fit(Xtrain[], Ytrain[], batch_size=Para['batch_size'], nb_epoch=1, verbose=0, validation_data=(XCV, YCV))
+        history = MLP_Model.fit(Xtrain, Ytrain, batch_size=Para['batch_size'], nb_epoch=1, verbose=0, validation_data=(XCV, YCV))
         score = MLP_Model.evaluate(Xtest, Ytest, verbose=0)
         
         histories.append(history.history)
