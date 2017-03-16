@@ -14,7 +14,7 @@ def load_data(dataset):
         print 'Downloading data from %s' % origin
         urllib.urlretrieve(origin, dataset)
 
-    print '... loading data'
+    #print '... loading data'
 
     # Load the dataset
     f = gzip.open(dataset, 'rb')

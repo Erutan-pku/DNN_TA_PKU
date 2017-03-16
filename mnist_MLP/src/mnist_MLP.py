@@ -4,14 +4,15 @@ from keras.utils import np_utils
 from keras.models import Model
 from keras.layers import Input, Dense, Dropout
 from keras.optimizers import RMSprop
+from keras.regularizers import l2
 
 global mnist_MLP_Parameters
 mnist_MLP_Parameters = {
-    'model_layers':{'denseSize':[512,512],'activation':'relu','dropout':0.2},
+    'model_layers':{'denseSize':[512,512],'activation':'relu','dropout':0.2,'W_regularizer':None},
     'loss':'categorical_crossentropy', 
     'optimizer':RMSprop(),
     'batch_size':128,
-    'nb_epoch':30
+    'nb_epoch':1,
 }
 # https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py
 
@@ -42,9 +43,11 @@ def getModelPara(Para) :
     Input_tensor = Input(shape=(784, ), dtype='float32', name='Input_tensor')
     dense_compute = Input_tensor
     for i in range(layers_num) :
-        dense_compute = Dense(model_layers['denseSize'][i], activation=activations[i])(dense_compute)
+        #print model_layers['denseSize'][i]
+        dense_compute = Dense(model_layers['denseSize'][i], activation=activations[i], W_regularizer=model_layers['W_regularizer'])(dense_compute)
         if not dropouts[i] == 0:
             dense_compute = Dropout(dropouts[i])(dense_compute)
+        #print dense_compute._shape
     output = Dense(10, activation='softmax')(dense_compute)
 
     model = Model(input=Input_tensor, output=output)
@@ -67,7 +70,7 @@ def minist_MLP(Para=None):
     MLP_Model = getModelPara(Para)
     histories, scores = [], []
     for i in range(Para['nb_epoch']) :
-        history = MLP_Model.fit(Xtrain, Ytrain, batch_size=Para['batch_size'], nb_epoch=1, verbose=0, validation_data=(XCV, YCV))
+        history = MLP_Model.fit(Xtrain, Ytrain, batch_size=Para['batch_size'], nb_epoch=1, verbose=1, validation_data=(XCV, YCV))
         score = MLP_Model.evaluate(Xtest, Ytest, verbose=0)
         
         histories.append(history.history)
