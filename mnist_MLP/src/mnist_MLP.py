@@ -12,7 +12,7 @@ mnist_MLP_Parameters = {
     'loss':'categorical_crossentropy', 
     'optimizer':RMSprop(),
     'batch_size':128,
-    'nb_epoch':1,
+    'nb_epoch':30,
 }
 # https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py
 
@@ -70,7 +70,7 @@ def minist_MLP(Para=None):
     MLP_Model = getModelPara(Para)
     histories, scores = [], []
     for i in range(Para['nb_epoch']) :
-        history = MLP_Model.fit(Xtrain, Ytrain, batch_size=Para['batch_size'], nb_epoch=1, verbose=1, validation_data=(XCV, YCV))
+        history = MLP_Model.fit(Xtrain, Ytrain, batch_size=Para['batch_size'], nb_epoch=1, verbose=0, validation_data=(XCV, YCV))
         score = MLP_Model.evaluate(Xtest, Ytest, verbose=0)
         
         histories.append(history.history)
