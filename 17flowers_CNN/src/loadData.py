@@ -11,12 +11,14 @@ from PIL import Image
 参考: http://blog.csdn.net/sinat_16823063/article/details/53946549
 """
 
-def getData(mode=1, resize=(500, 500)) :
+def getData(mode=1, resize=None) :
     assert mode in [1,2,3]
     # raw_shape:(499~1057, 499~1093)
     # mask color : black:0, yellow:3, red:1
-
-    getPic = lambda filePath : np.array(Image.open(filePath).resize(resize))
+    if not resize is None :
+        getPic = lambda filePath : np.array(Image.open(filePath).resize(resize))
+    else :
+        getPic = lambda filePath : np.array(Image.open(filePath))
 
     jpg_files = []
     imlist    = set(sio.loadmat('../data/trimaps/imlist.mat')['imlist'][0])
@@ -24,12 +26,13 @@ def getData(mode=1, resize=(500, 500)) :
     mask_set = set()
     for i, fileName in enumerate(fileName_list) :
         jpg_file_t = {}
+        jpg_file_t['label'] = int(i / 80)
         jpg_file_t['img_raw'] = getPic('../data/jpg/'+fileName)
         #jpg_file_t['Mask'] = getPic('../data/trimaps/'+fileName[:-4]+'.png') if (i+1) in imlist else None
         jpg_files.append(jpg_file_t)
 
     datasplits=sio.loadmat('../data/datasplits.mat')
-    keys = [tp+str(mode) for tp in ['val', 'trn', 'tst']]
+    keys = [tp+str(mode) for tp in ['trn', 'val', 'tst']]
     trn_set, val_set, tst_set = [set(list(datasplits[name][0])) for name in keys]
     trn_data, val_data, tst_data = [], [], []
     for i, jpg_file in enumerate(jpg_files) :

@@ -1,6 +1,7 @@
 *.doc
 *.docx
 *.pyc
+*.xlsx
 #*.gz
 #*.zip
 #*.rar

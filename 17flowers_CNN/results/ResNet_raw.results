@@ -1,0 +1,1608 @@
+
+
+
+getResNet18
+
+Doing: 1
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 64)
+(?, 28, 28, 128)
+(?, 14, 14, 256)
+(?, 7, 7, 512)
+(?, 1, 1, 512)
+(?, 17)
+1  trn_acc: 0.0471  val_acc: 0.0765  tst_acc: 0.0471
+2  trn_acc: 0.0588  val_acc: 0.0559  tst_acc: 0.0559
+3  trn_acc: 0.1912  val_acc: 0.1706  tst_acc: 0.1971
+4  trn_acc: 0.4265  val_acc: 0.3441  tst_acc: 0.3706
+5  trn_acc: 0.5500  val_acc: 0.4441  tst_acc: 0.4647
+6  trn_acc: 0.6015  val_acc: 0.4706  tst_acc: 0.5206
+7  trn_acc: 0.7176  val_acc: 0.5529  tst_acc: 0.6088
+8  trn_acc: 0.4250  val_acc: 0.3029  tst_acc: 0.3765
+9  trn_acc: 0.4353  val_acc: 0.3265  tst_acc: 0.3735
+10  trn_acc: 0.8309  val_acc: 0.5853  tst_acc: 0.6765
+11  trn_acc: 0.6838  val_acc: 0.4971  tst_acc: 0.5235
+12  trn_acc: 0.8118  val_acc: 0.5265  tst_acc: 0.6029
+13  trn_acc: 0.8132  val_acc: 0.5147  tst_acc: 0.6118
+14  trn_acc: 0.9515  val_acc: 0.6441  tst_acc: 0.7588
+15  trn_acc: 0.9324  val_acc: 0.5853  tst_acc: 0.6412
+16  trn_acc: 0.9412  val_acc: 0.6294  tst_acc: 0.6912
+17  trn_acc: 0.8044  val_acc: 0.5118  tst_acc: 0.5471
+18  trn_acc: 0.9618  val_acc: 0.6235  tst_acc: 0.6794
+19  trn_acc: 0.8235  val_acc: 0.5147  tst_acc: 0.5794
+20  trn_acc: 0.9868  val_acc: 0.6588  tst_acc: 0.7000
+21  trn_acc: 0.9882  val_acc: 0.6529  tst_acc: 0.6971
+22  trn_acc: 0.9647  val_acc: 0.5941  tst_acc: 0.6941
+23  trn_acc: 0.9647  val_acc: 0.5971  tst_acc: 0.6941
+24  trn_acc: 0.9971  val_acc: 0.6441  tst_acc: 0.7206
+25  trn_acc: 0.9765  val_acc: 0.5735  tst_acc: 0.6676
+26  trn_acc: 0.9941  val_acc: 0.6412  tst_acc: 0.6941
+27  trn_acc: 0.9971  val_acc: 0.6353  tst_acc: 0.7412
+28  trn_acc: 0.9868  val_acc: 0.6500  tst_acc: 0.7029
+29  trn_acc: 0.9971  val_acc: 0.6941  tst_acc: 0.7353
+30  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7382
+31  trn_acc: 0.9221  val_acc: 0.5412  tst_acc: 0.6206
+32  trn_acc: 1.0000  val_acc: 0.6500  tst_acc: 0.7412
+33  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7235
+34  trn_acc: 0.9603  val_acc: 0.5647  tst_acc: 0.6029
+35  trn_acc: 0.9941  val_acc: 0.6412  tst_acc: 0.7000
+36  trn_acc: 0.9500  val_acc: 0.5794  tst_acc: 0.6088
+37  trn_acc: 0.9971  val_acc: 0.6324  tst_acc: 0.6941
+38  trn_acc: 0.9750  val_acc: 0.5824  tst_acc: 0.6412
+39  trn_acc: 0.9794  val_acc: 0.5941  tst_acc: 0.6265
+40  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7265
+41  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7471
+42  trn_acc: 0.9250  val_acc: 0.5647  tst_acc: 0.6029
+43  trn_acc: 0.9676  val_acc: 0.6118  tst_acc: 0.6824
+44  trn_acc: 0.7426  val_acc: 0.3529  tst_acc: 0.4118
+45  trn_acc: 0.9750  val_acc: 0.5912  tst_acc: 0.6735
+46  trn_acc: 0.9971  val_acc: 0.6765  tst_acc: 0.7294
+47  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.7412
+48  trn_acc: 0.9926  val_acc: 0.6853  tst_acc: 0.7235
+49  trn_acc: 1.0000  val_acc: 0.6441  tst_acc: 0.7235
+50  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7941
+51  trn_acc: 0.9971  val_acc: 0.6559  tst_acc: 0.7265
+52  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.7500
+53  trn_acc: 0.9926  val_acc: 0.6235  tst_acc: 0.7000
+54  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7706
+55  trn_acc: 0.9956  val_acc: 0.6471  tst_acc: 0.7029
+56  trn_acc: 0.9971  val_acc: 0.6941  tst_acc: 0.7382
+57  trn_acc: 0.9882  val_acc: 0.6382  tst_acc: 0.6941
+58  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7735
+59  trn_acc: 0.9971  val_acc: 0.6412  tst_acc: 0.6794
+60  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7647
+61  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7471
+62  trn_acc: 1.0000  val_acc: 0.6147  tst_acc: 0.7235
+63  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7706
+64  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7588
+65  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7765
+66  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.7147
+67  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7765
+68  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7853
+69  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7618
+70  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.7882
+71  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7941
+72  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7353
+73  trn_acc: 0.9809  val_acc: 0.5529  tst_acc: 0.6088
+74  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.7824
+75  trn_acc: 1.0000  val_acc: 0.6588  tst_acc: 0.7147
+76  trn_acc: 1.0000  val_acc: 0.6353  tst_acc: 0.7235
+77  trn_acc: 1.0000  val_acc: 0.6676  tst_acc: 0.7471
+78  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7765
+79  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7794
+80  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7529
+81  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.7794
+82  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7765
+83  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.7500
+84  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7618
+85  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7765
+86  trn_acc: 1.0000  val_acc: 0.6588  tst_acc: 0.7500
+87  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.7529
+88  trn_acc: 0.9985  val_acc: 0.6618  tst_acc: 0.7618
+89  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7912
+90  trn_acc: 0.9985  val_acc: 0.6676  tst_acc: 0.7412
+91  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7853
+92  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7824
+93  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.7765
+94  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7794
+95  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7500
+96  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7824
+97  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7853
+98  trn_acc: 0.9897  val_acc: 0.6500  tst_acc: 0.7176
+99  trn_acc: 0.9985  val_acc: 0.6765  tst_acc: 0.7824
+100  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.8088
+101  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7529
+102  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7853
+103  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7706
+104  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7941
+105  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7618
+106  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7824
+107  trn_acc: 1.0000  val_acc: 0.6559  tst_acc: 0.7294
+108  trn_acc: 0.9971  val_acc: 0.5265  tst_acc: 0.6382
+109  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.7559
+110  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7824
+111  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7676
+112  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7588
+113  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7676
+114  trn_acc: 0.9985  val_acc: 0.6735  tst_acc: 0.7588
+115  trn_acc: 1.0000  val_acc: 0.6265  tst_acc: 0.6765
+116  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.8088
+117  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.7471
+118  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7853
+119  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7824
+120  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.7324
+92 0.7824 0.7324 1.0000 1.0000
+
+Doing: 2
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 64)
+(?, 28, 28, 128)
+(?, 14, 14, 256)
+(?, 7, 7, 512)
+(?, 1, 1, 512)
+(?, 17)
+1  trn_acc: 0.0588  val_acc: 0.0588  tst_acc: 0.0588
+2  trn_acc: 0.1456  val_acc: 0.1471  tst_acc: 0.1206
+3  trn_acc: 0.4235  val_acc: 0.3941  tst_acc: 0.3294
+4  trn_acc: 0.3647  val_acc: 0.3559  tst_acc: 0.2882
+5  trn_acc: 0.2235  val_acc: 0.2088  tst_acc: 0.1765
+6  trn_acc: 0.4353  val_acc: 0.3618  tst_acc: 0.3647
+7  trn_acc: 0.6279  val_acc: 0.5059  tst_acc: 0.4882
+8  trn_acc: 0.7000  val_acc: 0.5618  tst_acc: 0.5382
+9  trn_acc: 0.4882  val_acc: 0.4147  tst_acc: 0.3618
+10  trn_acc: 0.7382  val_acc: 0.4882  tst_acc: 0.5029
+11  trn_acc: 0.5912  val_acc: 0.4824  tst_acc: 0.4618
+12  trn_acc: 0.8000  val_acc: 0.5618  tst_acc: 0.5265
+13  trn_acc: 0.9088  val_acc: 0.6265  tst_acc: 0.6382
+14  trn_acc: 0.8912  val_acc: 0.6265  tst_acc: 0.5853
+15  trn_acc: 0.9588  val_acc: 0.6529  tst_acc: 0.6176
+16  trn_acc: 0.9456  val_acc: 0.6735  tst_acc: 0.6412
+17  trn_acc: 0.9809  val_acc: 0.6647  tst_acc: 0.6559
+18  trn_acc: 0.9235  val_acc: 0.6324  tst_acc: 0.5941
+19  trn_acc: 0.9882  val_acc: 0.6618  tst_acc: 0.6853
+20  trn_acc: 0.8324  val_acc: 0.5353  tst_acc: 0.4824
+21  trn_acc: 0.6382  val_acc: 0.4206  tst_acc: 0.4441
+22  trn_acc: 0.9721  val_acc: 0.6265  tst_acc: 0.6735
+23  trn_acc: 0.9676  val_acc: 0.6500  tst_acc: 0.6147
+24  trn_acc: 0.9471  val_acc: 0.6324  tst_acc: 0.5647
+25  trn_acc: 0.9750  val_acc: 0.6382  tst_acc: 0.6676
+26  trn_acc: 0.9971  val_acc: 0.6971  tst_acc: 0.6706
+27  trn_acc: 0.9824  val_acc: 0.6000  tst_acc: 0.5706
+28  trn_acc: 0.9971  val_acc: 0.6765  tst_acc: 0.6882
+29  trn_acc: 0.9809  val_acc: 0.6471  tst_acc: 0.6471
+30  trn_acc: 0.9456  val_acc: 0.6176  tst_acc: 0.6176
+31  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6824
+32  trn_acc: 0.9603  val_acc: 0.5941  tst_acc: 0.5529
+33  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.6882
+34  trn_acc: 0.9897  val_acc: 0.6765  tst_acc: 0.6353
+35  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7147
+36  trn_acc: 0.9838  val_acc: 0.6382  tst_acc: 0.6235
+37  trn_acc: 0.9956  val_acc: 0.6706  tst_acc: 0.7294
+38  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7059
+39  trn_acc: 0.9926  val_acc: 0.6588  tst_acc: 0.6529
+40  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7147
+41  trn_acc: 0.9941  val_acc: 0.7088  tst_acc: 0.7029
+42  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7206
+43  trn_acc: 0.9956  val_acc: 0.6529  tst_acc: 0.6735
+44  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7176
+45  trn_acc: 1.0000  val_acc: 0.7353  tst_acc: 0.7382
+46  trn_acc: 0.9882  val_acc: 0.6382  tst_acc: 0.6706
+47  trn_acc: 0.9985  val_acc: 0.6971  tst_acc: 0.6941
+48  trn_acc: 0.9515  val_acc: 0.5824  tst_acc: 0.5588
+49  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7265
+50  trn_acc: 1.0000  val_acc: 0.7265  tst_acc: 0.6971
+51  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7206
+52  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7147
+53  trn_acc: 0.9971  val_acc: 0.6559  tst_acc: 0.6618
+54  trn_acc: 0.9897  val_acc: 0.6324  tst_acc: 0.6353
+55  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.6794
+56  trn_acc: 1.0000  val_acc: 0.7559  tst_acc: 0.7294
+57  trn_acc: 0.9926  val_acc: 0.6765  tst_acc: 0.6735
+58  trn_acc: 0.9662  val_acc: 0.6324  tst_acc: 0.6235
+59  trn_acc: 0.9882  val_acc: 0.5882  tst_acc: 0.5676
+60  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6853
+61  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6882
+62  trn_acc: 1.0000  val_acc: 0.7265  tst_acc: 0.7029
+63  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7382
+64  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7647
+65  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7441
+66  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7118
+67  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7294
+68  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7559
+69  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7588
+70  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7294
+71  trn_acc: 0.9721  val_acc: 0.6265  tst_acc: 0.6176
+72  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7265
+73  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6794
+74  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.6941
+75  trn_acc: 0.9882  val_acc: 0.6412  tst_acc: 0.6471
+76  trn_acc: 1.0000  val_acc: 0.7412  tst_acc: 0.7265
+77  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7059
+78  trn_acc: 1.0000  val_acc: 0.7529  tst_acc: 0.7500
+79  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7559
+80  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7088
+81  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7412
+82  trn_acc: 0.9985  val_acc: 0.7441  tst_acc: 0.7147
+83  trn_acc: 1.0000  val_acc: 0.7412  tst_acc: 0.7588
+84  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7529
+85  trn_acc: 0.9985  val_acc: 0.7265  tst_acc: 0.7029
+86  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7206
+87  trn_acc: 1.0000  val_acc: 0.7471  tst_acc: 0.7588
+88  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7235
+89  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7088
+90  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7324
+91  trn_acc: 0.9985  val_acc: 0.6912  tst_acc: 0.6941
+92  trn_acc: 0.9971  val_acc: 0.7000  tst_acc: 0.6735
+93  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7353
+94  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7412
+95  trn_acc: 0.9971  val_acc: 0.7029  tst_acc: 0.6794
+96  trn_acc: 0.9971  val_acc: 0.6676  tst_acc: 0.6824
+97  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6794
+98  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7353
+99  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7441
+100  trn_acc: 1.0000  val_acc: 0.7500  tst_acc: 0.7500
+101  trn_acc: 1.0000  val_acc: 0.7265  tst_acc: 0.7353
+102  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7206
+103  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7382
+104  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7500
+105  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.6853
+106  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7441
+107  trn_acc: 1.0000  val_acc: 0.7353  tst_acc: 0.7618
+108  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7529
+109  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7676
+110  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7147
+111  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.6794
+112  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7235
+113  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7500
+114  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7618
+115  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7147
+116  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6676
+117  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7412
+118  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7382
+119  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7500
+120  trn_acc: 0.9779  val_acc: 0.6176  tst_acc: 0.6176
+56 0.7294 0.7559 1.0000 1.0000
+
+Doing: 3
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 64)
+(?, 28, 28, 128)
+(?, 14, 14, 256)
+(?, 7, 7, 512)
+(?, 1, 1, 512)
+(?, 17)
+1  trn_acc: 0.0588  val_acc: 0.0588  tst_acc: 0.0559
+2  trn_acc: 0.1206  val_acc: 0.1118  tst_acc: 0.1029
+3  trn_acc: 0.2265  val_acc: 0.2118  tst_acc: 0.2265
+4  trn_acc: 0.3691  val_acc: 0.3412  tst_acc: 0.3235
+5  trn_acc: 0.4235  val_acc: 0.3324  tst_acc: 0.3824
+6  trn_acc: 0.5044  val_acc: 0.4235  tst_acc: 0.4618
+7  trn_acc: 0.6529  val_acc: 0.4735  tst_acc: 0.4735
+8  trn_acc: 0.7059  val_acc: 0.5588  tst_acc: 0.5324
+9  trn_acc: 0.7074  val_acc: 0.5118  tst_acc: 0.5294
+10  trn_acc: 0.5088  val_acc: 0.4118  tst_acc: 0.3912
+11  trn_acc: 0.7412  val_acc: 0.5353  tst_acc: 0.5559
+12  trn_acc: 0.6338  val_acc: 0.4176  tst_acc: 0.4382
+13  trn_acc: 0.8765  val_acc: 0.6088  tst_acc: 0.5971
+14  trn_acc: 0.9147  val_acc: 0.6294  tst_acc: 0.6412
+15  trn_acc: 0.6294  val_acc: 0.4294  tst_acc: 0.4382
+16  trn_acc: 0.9029  val_acc: 0.5706  tst_acc: 0.5529
+17  trn_acc: 0.9868  val_acc: 0.6588  tst_acc: 0.6353
+18  trn_acc: 0.9882  val_acc: 0.6235  tst_acc: 0.6706
+19  trn_acc: 0.9662  val_acc: 0.5971  tst_acc: 0.6176
+20  trn_acc: 0.9926  val_acc: 0.6618  tst_acc: 0.6706
+21  trn_acc: 0.9926  val_acc: 0.6324  tst_acc: 0.6500
+22  trn_acc: 0.9676  val_acc: 0.5853  tst_acc: 0.6235
+23  trn_acc: 0.8662  val_acc: 0.5000  tst_acc: 0.4794
+24  trn_acc: 0.9441  val_acc: 0.5735  tst_acc: 0.6147
+25  trn_acc: 0.9824  val_acc: 0.6441  tst_acc: 0.6353
+26  trn_acc: 0.9809  val_acc: 0.6412  tst_acc: 0.6206
+27  trn_acc: 0.9809  val_acc: 0.6471  tst_acc: 0.6471
+28  trn_acc: 0.9853  val_acc: 0.6176  tst_acc: 0.6176
+29  trn_acc: 0.9794  val_acc: 0.6324  tst_acc: 0.6118
+30  trn_acc: 0.9824  val_acc: 0.5853  tst_acc: 0.6088
+31  trn_acc: 0.9868  val_acc: 0.6029  tst_acc: 0.6265
+32  trn_acc: 0.9971  val_acc: 0.7000  tst_acc: 0.6794
+33  trn_acc: 0.9265  val_acc: 0.5676  tst_acc: 0.5676
+34  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7088
+35  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.6882
+36  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.7147
+37  trn_acc: 0.9618  val_acc: 0.5735  tst_acc: 0.5853
+38  trn_acc: 0.9794  val_acc: 0.5735  tst_acc: 0.5324
+39  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.6765
+40  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6912
+41  trn_acc: 1.0000  val_acc: 0.6294  tst_acc: 0.6441
+42  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7206
+43  trn_acc: 0.9985  val_acc: 0.6588  tst_acc: 0.6735
+44  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.6912
+45  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.6824
+46  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6853
+47  trn_acc: 0.9912  val_acc: 0.5882  tst_acc: 0.6412
+48  trn_acc: 1.0000  val_acc: 0.6529  tst_acc: 0.6912
+49  trn_acc: 0.9971  val_acc: 0.6471  tst_acc: 0.6706
+50  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7265
+51  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7235
+52  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6618
+53  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.6824
+54  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.6676
+55  trn_acc: 1.0000  val_acc: 0.7412  tst_acc: 0.7618
+56  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.6824
+57  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7235
+58  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.6941
+59  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7265
+60  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.6647
+61  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7118
+62  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.6765
+63  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7029
+64  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.6824
+65  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6882
+66  trn_acc: 0.9985  val_acc: 0.6941  tst_acc: 0.6765
+67  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6824
+68  trn_acc: 0.9985  val_acc: 0.6294  tst_acc: 0.6500
+69  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7294
+70  trn_acc: 1.0000  val_acc: 0.6676  tst_acc: 0.6765
+71  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.6882
+72  trn_acc: 1.0000  val_acc: 0.6529  tst_acc: 0.6853
+73  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7118
+74  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.6882
+75  trn_acc: 0.9985  val_acc: 0.6735  tst_acc: 0.7029
+76  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6824
+77  trn_acc: 0.9971  val_acc: 0.6765  tst_acc: 0.6941
+78  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.7088
+79  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7353
+80  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.7265
+81  trn_acc: 1.0000  val_acc: 0.7265  tst_acc: 0.7324
+82  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7118
+83  trn_acc: 1.0000  val_acc: 0.7353  tst_acc: 0.6971
+84  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7147
+85  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7382
+86  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.6794
+87  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7000
+88  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7088
+89  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.6912
+90  trn_acc: 1.0000  val_acc: 0.6471  tst_acc: 0.6853
+91  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.6853
+92  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6853
+93  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7265
+94  trn_acc: 0.9985  val_acc: 0.6824  tst_acc: 0.6765
+95  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.6941
+96  trn_acc: 1.0000  val_acc: 0.7471  tst_acc: 0.7265
+97  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.6941
+98  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6853
+99  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7176
+100  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7147
+101  trn_acc: 0.9176  val_acc: 0.5029  tst_acc: 0.4941
+102  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6794
+103  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7147
+104  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7118
+105  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7088
+106  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7147
+107  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7147
+108  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6941
+109  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.6971
+110  trn_acc: 1.0000  val_acc: 0.7265  tst_acc: 0.7353
+111  trn_acc: 1.0000  val_acc: 0.7412  tst_acc: 0.7265
+112  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7088
+113  trn_acc: 1.0000  val_acc: 0.7412  tst_acc: 0.7324
+114  trn_acc: 1.0000  val_acc: 0.6529  tst_acc: 0.6559
+115  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7059
+116  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.6794
+117  trn_acc: 1.0000  val_acc: 0.7471  tst_acc: 0.7382
+118  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7294
+119  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7471
+120  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.7265
+96 0.7265 0.7471 1.0000 1.0000
+0.7578 0.7314
+
+
+
+
+
+
+
+getResNet34
+
+Doing: 1
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 64)
+(?, 28, 28, 128)
+(?, 14, 14, 256)
+(?, 7, 7, 512)
+(?, 1, 1, 512)
+(?, 17)
+1  trn_acc: 0.0309  val_acc: 0.0265  tst_acc: 0.0353
+2  trn_acc: 0.1632  val_acc: 0.1382  tst_acc: 0.1676
+3  trn_acc: 0.3088  val_acc: 0.2735  tst_acc: 0.2971
+4  trn_acc: 0.1118  val_acc: 0.1088  tst_acc: 0.1206
+5  trn_acc: 0.2868  val_acc: 0.2559  tst_acc: 0.2765
+6  trn_acc: 0.4074  val_acc: 0.3441  tst_acc: 0.3588
+7  trn_acc: 0.3353  val_acc: 0.3294  tst_acc: 0.3265
+8  trn_acc: 0.4088  val_acc: 0.3265  tst_acc: 0.3353
+9  trn_acc: 0.7265  val_acc: 0.5676  tst_acc: 0.6176
+10  trn_acc: 0.7294  val_acc: 0.5500  tst_acc: 0.5824
+11  trn_acc: 0.7706  val_acc: 0.5735  tst_acc: 0.6353
+12  trn_acc: 0.7015  val_acc: 0.5235  tst_acc: 0.5765
+13  trn_acc: 0.7368  val_acc: 0.5500  tst_acc: 0.6147
+14  trn_acc: 0.8500  val_acc: 0.6235  tst_acc: 0.6882
+15  trn_acc: 0.8132  val_acc: 0.5559  tst_acc: 0.6324
+16  trn_acc: 0.7912  val_acc: 0.5441  tst_acc: 0.5882
+17  trn_acc: 0.7412  val_acc: 0.4529  tst_acc: 0.5324
+18  trn_acc: 0.9132  val_acc: 0.6118  tst_acc: 0.6824
+19  trn_acc: 0.7368  val_acc: 0.5000  tst_acc: 0.5265
+20  trn_acc: 0.9559  val_acc: 0.6735  tst_acc: 0.7265
+21  trn_acc: 0.8353  val_acc: 0.6029  tst_acc: 0.6353
+22  trn_acc: 0.7897  val_acc: 0.5000  tst_acc: 0.5588
+23  trn_acc: 0.9750  val_acc: 0.6559  tst_acc: 0.7000
+24  trn_acc: 0.9265  val_acc: 0.5971  tst_acc: 0.6794
+25  trn_acc: 0.8971  val_acc: 0.5912  tst_acc: 0.6235
+26  trn_acc: 0.9603  val_acc: 0.5853  tst_acc: 0.6647
+27  trn_acc: 0.9618  val_acc: 0.6235  tst_acc: 0.7059
+28  trn_acc: 0.9765  val_acc: 0.6647  tst_acc: 0.7206
+29  trn_acc: 0.9324  val_acc: 0.6088  tst_acc: 0.6824
+30  trn_acc: 0.9279  val_acc: 0.6000  tst_acc: 0.6618
+31  trn_acc: 0.9956  val_acc: 0.6735  tst_acc: 0.7353
+32  trn_acc: 0.9162  val_acc: 0.5676  tst_acc: 0.6176
+33  trn_acc: 0.9971  val_acc: 0.6853  tst_acc: 0.7441
+34  trn_acc: 0.9647  val_acc: 0.5941  tst_acc: 0.6824
+35  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7588
+36  trn_acc: 0.9956  val_acc: 0.6941  tst_acc: 0.7559
+37  trn_acc: 0.9721  val_acc: 0.6088  tst_acc: 0.7000
+38  trn_acc: 0.9971  val_acc: 0.6794  tst_acc: 0.7471
+39  trn_acc: 0.9941  val_acc: 0.6500  tst_acc: 0.7206
+40  trn_acc: 0.9956  val_acc: 0.6765  tst_acc: 0.7382
+41  trn_acc: 0.9956  val_acc: 0.6765  tst_acc: 0.7529
+42  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.7706
+43  trn_acc: 0.9735  val_acc: 0.5882  tst_acc: 0.6824
+44  trn_acc: 0.9971  val_acc: 0.6941  tst_acc: 0.7765
+45  trn_acc: 0.9956  val_acc: 0.6529  tst_acc: 0.7471
+46  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7882
+47  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7882
+48  trn_acc: 0.9971  val_acc: 0.6412  tst_acc: 0.7206
+49  trn_acc: 0.9618  val_acc: 0.6529  tst_acc: 0.7118
+50  trn_acc: 0.9985  val_acc: 0.6824  tst_acc: 0.7441
+51  trn_acc: 0.9574  val_acc: 0.6265  tst_acc: 0.6412
+52  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7735
+53  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7706
+54  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7735
+55  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7235
+56  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7412
+57  trn_acc: 0.9941  val_acc: 0.6235  tst_acc: 0.7088
+58  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7471
+59  trn_acc: 0.9985  val_acc: 0.6853  tst_acc: 0.7765
+60  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7941
+61  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7912
+62  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7618
+63  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7647
+64  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7706
+65  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7971
+66  trn_acc: 0.9941  val_acc: 0.7000  tst_acc: 0.7559
+67  trn_acc: 0.9985  val_acc: 0.6971  tst_acc: 0.7618
+68  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7618
+69  trn_acc: 1.0000  val_acc: 0.6588  tst_acc: 0.7559
+70  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7441
+71  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7559
+72  trn_acc: 1.0000  val_acc: 0.7265  tst_acc: 0.8000
+73  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.8176
+74  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7882
+75  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.7441
+76  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7765
+77  trn_acc: 0.9985  val_acc: 0.6647  tst_acc: 0.7441
+78  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7441
+79  trn_acc: 0.9824  val_acc: 0.5971  tst_acc: 0.6294
+80  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7765
+81  trn_acc: 0.9882  val_acc: 0.6441  tst_acc: 0.7059
+82  trn_acc: 0.9971  val_acc: 0.6588  tst_acc: 0.7147
+83  trn_acc: 0.9985  val_acc: 0.6412  tst_acc: 0.7088
+84  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7500
+85  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7706
+86  trn_acc: 0.9559  val_acc: 0.5971  tst_acc: 0.6588
+87  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7971
+88  trn_acc: 1.0000  val_acc: 0.7265  tst_acc: 0.7735
+89  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7618
+90  trn_acc: 0.9985  val_acc: 0.6824  tst_acc: 0.7706
+91  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.7529
+92  trn_acc: 0.9941  val_acc: 0.6794  tst_acc: 0.7147
+93  trn_acc: 0.9897  val_acc: 0.5971  tst_acc: 0.6706
+94  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7735
+95  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7529
+96  trn_acc: 0.9985  val_acc: 0.7500  tst_acc: 0.7794
+97  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7941
+98  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7794
+99  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7588
+100  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7676
+101  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7676
+102  trn_acc: 0.9985  val_acc: 0.6853  tst_acc: 0.7706
+103  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7912
+104  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7794
+105  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7559
+106  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7794
+107  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7588
+108  trn_acc: 1.0000  val_acc: 0.7412  tst_acc: 0.8029
+109  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7676
+110  trn_acc: 1.0000  val_acc: 0.7412  tst_acc: 0.8206
+111  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7559
+112  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7765
+113  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.8059
+114  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7794
+115  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7824
+116  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7735
+117  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7588
+118  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7765
+119  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7647
+120  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.8294
+96 0.7794 0.7500 0.9985 1.0000
+
+Doing: 2
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 64)
+(?, 28, 28, 128)
+(?, 14, 14, 256)
+(?, 7, 7, 512)
+(?, 1, 1, 512)
+(?, 17)
+1  trn_acc: 0.0588  val_acc: 0.0588  tst_acc: 0.0588
+2  trn_acc: 0.0603  val_acc: 0.0588  tst_acc: 0.0588
+3  trn_acc: 0.2279  val_acc: 0.1853  tst_acc: 0.1971
+4  trn_acc: 0.1838  val_acc: 0.1618  tst_acc: 0.1471
+5  trn_acc: 0.2985  val_acc: 0.2618  tst_acc: 0.2441
+6  trn_acc: 0.4971  val_acc: 0.4000  tst_acc: 0.3618
+7  trn_acc: 0.4853  val_acc: 0.3529  tst_acc: 0.3559
+8  trn_acc: 0.5132  val_acc: 0.3647  tst_acc: 0.3559
+9  trn_acc: 0.5559  val_acc: 0.4618  tst_acc: 0.4265
+10  trn_acc: 0.7118  val_acc: 0.5088  tst_acc: 0.5206
+11  trn_acc: 0.7956  val_acc: 0.5912  tst_acc: 0.5735
+12  trn_acc: 0.8176  val_acc: 0.6059  tst_acc: 0.5618
+13  trn_acc: 0.8103  val_acc: 0.5912  tst_acc: 0.5706
+14  trn_acc: 0.8382  val_acc: 0.5765  tst_acc: 0.5735
+15  trn_acc: 0.5029  val_acc: 0.3676  tst_acc: 0.3353
+16  trn_acc: 0.9147  val_acc: 0.6294  tst_acc: 0.6147
+17  trn_acc: 0.9765  val_acc: 0.6529  tst_acc: 0.6853
+18  trn_acc: 0.9309  val_acc: 0.6412  tst_acc: 0.6029
+19  trn_acc: 0.9397  val_acc: 0.6294  tst_acc: 0.5882
+20  trn_acc: 0.9824  val_acc: 0.6647  tst_acc: 0.6618
+21  trn_acc: 0.9971  val_acc: 0.6588  tst_acc: 0.6824
+22  trn_acc: 0.9662  val_acc: 0.6500  tst_acc: 0.6529
+23  trn_acc: 0.9794  val_acc: 0.6412  tst_acc: 0.6088
+24  trn_acc: 0.9956  val_acc: 0.7059  tst_acc: 0.7029
+25  trn_acc: 0.9912  val_acc: 0.6676  tst_acc: 0.6647
+26  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.6912
+27  trn_acc: 0.9515  val_acc: 0.5735  tst_acc: 0.5500
+28  trn_acc: 0.9956  val_acc: 0.6853  tst_acc: 0.6765
+29  trn_acc: 0.9926  val_acc: 0.6559  tst_acc: 0.6882
+30  trn_acc: 0.9735  val_acc: 0.6853  tst_acc: 0.6294
+31  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.6765
+32  trn_acc: 0.9956  val_acc: 0.6824  tst_acc: 0.6912
+33  trn_acc: 0.9824  val_acc: 0.6206  tst_acc: 0.6647
+34  trn_acc: 0.9985  val_acc: 0.6647  tst_acc: 0.7206
+35  trn_acc: 0.9721  val_acc: 0.6029  tst_acc: 0.6206
+36  trn_acc: 1.0000  val_acc: 0.6559  tst_acc: 0.6794
+37  trn_acc: 0.9985  val_acc: 0.6765  tst_acc: 0.6588
+38  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6824
+39  trn_acc: 0.9971  val_acc: 0.6176  tst_acc: 0.6147
+40  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7235
+41  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6765
+42  trn_acc: 0.9868  val_acc: 0.6588  tst_acc: 0.7029
+43  trn_acc: 1.0000  val_acc: 0.6559  tst_acc: 0.6647
+44  trn_acc: 1.0000  val_acc: 0.6500  tst_acc: 0.6912
+45  trn_acc: 0.9971  val_acc: 0.6441  tst_acc: 0.6471
+46  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.6706
+47  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7235
+48  trn_acc: 0.9985  val_acc: 0.6588  tst_acc: 0.6500
+49  trn_acc: 1.0000  val_acc: 0.6676  tst_acc: 0.6706
+50  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6735
+51  trn_acc: 0.9956  val_acc: 0.6382  tst_acc: 0.6676
+52  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7147
+53  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6765
+54  trn_acc: 0.9941  val_acc: 0.6647  tst_acc: 0.6412
+55  trn_acc: 0.9985  val_acc: 0.6971  tst_acc: 0.6529
+56  trn_acc: 0.9691  val_acc: 0.6676  tst_acc: 0.6559
+57  trn_acc: 0.9941  val_acc: 0.6294  tst_acc: 0.6529
+58  trn_acc: 0.9882  val_acc: 0.6265  tst_acc: 0.5941
+59  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7088
+60  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7382
+61  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7618
+62  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6647
+63  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7000
+64  trn_acc: 0.9971  val_acc: 0.6735  tst_acc: 0.6706
+65  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7059
+66  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6765
+67  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7441
+68  trn_acc: 0.9882  val_acc: 0.6147  tst_acc: 0.6000
+69  trn_acc: 0.9971  val_acc: 0.6735  tst_acc: 0.6559
+70  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7029
+71  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7088
+72  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6765
+73  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6912
+74  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7147
+75  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7441
+76  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7471
+77  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7206
+78  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.6824
+79  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7206
+80  trn_acc: 0.9985  val_acc: 0.6706  tst_acc: 0.6882
+81  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7265
+82  trn_acc: 0.9985  val_acc: 0.6647  tst_acc: 0.6882
+83  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7059
+84  trn_acc: 0.9985  val_acc: 0.6824  tst_acc: 0.7000
+85  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7235
+86  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7471
+87  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6912
+88  trn_acc: 1.0000  val_acc: 0.6412  tst_acc: 0.6618
+89  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7235
+90  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7382
+91  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7147
+92  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7000
+93  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6559
+94  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7000
+95  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.7118
+96  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7206
+97  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6971
+98  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7382
+99  trn_acc: 0.9971  val_acc: 0.6853  tst_acc: 0.7000
+100  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7353
+101  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7676
+102  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7353
+103  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7382
+104  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7294
+105  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6971
+106  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7471
+107  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7088
+108  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7235
+109  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7235
+110  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7559
+111  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7000
+112  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7382
+113  trn_acc: 0.9662  val_acc: 0.5735  tst_acc: 0.6059
+114  trn_acc: 1.0000  val_acc: 0.7353  tst_acc: 0.7471
+115  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7176
+116  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7441
+117  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6941
+118  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7471
+119  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7294
+120  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6765
+114 0.7471 0.7353 1.0000 1.0000
+
+Doing: 3
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 64)
+(?, 28, 28, 128)
+(?, 14, 14, 256)
+(?, 7, 7, 512)
+(?, 1, 1, 512)
+(?, 17)
+1  trn_acc: 0.0647  val_acc: 0.0618  tst_acc: 0.0618
+2  trn_acc: 0.1029  val_acc: 0.1176  tst_acc: 0.1000
+3  trn_acc: 0.3265  val_acc: 0.3265  tst_acc: 0.2971
+4  trn_acc: 0.3088  val_acc: 0.2765  tst_acc: 0.2676
+5  trn_acc: 0.3471  val_acc: 0.3294  tst_acc: 0.2853
+6  trn_acc: 0.5088  val_acc: 0.4059  tst_acc: 0.4029
+7  trn_acc: 0.6750  val_acc: 0.5382  tst_acc: 0.5353
+8  trn_acc: 0.7191  val_acc: 0.5618  tst_acc: 0.5529
+9  trn_acc: 0.4044  val_acc: 0.3471  tst_acc: 0.3559
+10  trn_acc: 0.6118  val_acc: 0.4676  tst_acc: 0.5000
+11  trn_acc: 0.5632  val_acc: 0.4235  tst_acc: 0.4412
+12  trn_acc: 0.7765  val_acc: 0.5471  tst_acc: 0.5412
+13  trn_acc: 0.7412  val_acc: 0.5235  tst_acc: 0.4794
+14  trn_acc: 0.5912  val_acc: 0.4441  tst_acc: 0.4118
+15  trn_acc: 0.7544  val_acc: 0.5588  tst_acc: 0.5206
+16  trn_acc: 0.8309  val_acc: 0.5853  tst_acc: 0.6029
+17  trn_acc: 0.9324  val_acc: 0.6206  tst_acc: 0.6176
+18  trn_acc: 0.8353  val_acc: 0.5706  tst_acc: 0.5412
+19  trn_acc: 0.9147  val_acc: 0.6176  tst_acc: 0.6088
+20  trn_acc: 0.9750  val_acc: 0.6971  tst_acc: 0.6882
+21  trn_acc: 0.9515  val_acc: 0.6706  tst_acc: 0.6735
+22  trn_acc: 0.9235  val_acc: 0.6000  tst_acc: 0.6176
+23  trn_acc: 0.9897  val_acc: 0.6971  tst_acc: 0.7000
+24  trn_acc: 0.9265  val_acc: 0.6147  tst_acc: 0.6118
+25  trn_acc: 0.9853  val_acc: 0.6588  tst_acc: 0.6971
+26  trn_acc: 0.9912  val_acc: 0.6735  tst_acc: 0.7059
+27  trn_acc: 0.9882  val_acc: 0.7088  tst_acc: 0.7000
+28  trn_acc: 0.9750  val_acc: 0.6853  tst_acc: 0.7000
+29  trn_acc: 0.9956  val_acc: 0.6765  tst_acc: 0.6912
+30  trn_acc: 0.9912  val_acc: 0.6618  tst_acc: 0.6794
+31  trn_acc: 0.9868  val_acc: 0.6471  tst_acc: 0.6882
+32  trn_acc: 0.9779  val_acc: 0.6382  tst_acc: 0.6382
+33  trn_acc: 0.9882  val_acc: 0.6559  tst_acc: 0.6882
+34  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7765
+35  trn_acc: 0.9912  val_acc: 0.6206  tst_acc: 0.6500
+36  trn_acc: 0.9971  val_acc: 0.7176  tst_acc: 0.7029
+37  trn_acc: 0.9985  val_acc: 0.7500  tst_acc: 0.7647
+38  trn_acc: 0.9956  val_acc: 0.6882  tst_acc: 0.7206
+39  trn_acc: 1.0000  val_acc: 0.7265  tst_acc: 0.7353
+40  trn_acc: 0.9985  val_acc: 0.7412  tst_acc: 0.7029
+41  trn_acc: 1.0000  val_acc: 0.7559  tst_acc: 0.7559
+42  trn_acc: 0.9941  val_acc: 0.7235  tst_acc: 0.7000
+43  trn_acc: 1.0000  val_acc: 0.7529  tst_acc: 0.7529
+44  trn_acc: 1.0000  val_acc: 0.7559  tst_acc: 0.7382
+45  trn_acc: 0.9971  val_acc: 0.7265  tst_acc: 0.7176
+46  trn_acc: 0.9985  val_acc: 0.7118  tst_acc: 0.7265
+47  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.6941
+48  trn_acc: 1.0000  val_acc: 0.7676  tst_acc: 0.7353
+49  trn_acc: 1.0000  val_acc: 0.7471  tst_acc: 0.7500
+50  trn_acc: 0.9941  val_acc: 0.6647  tst_acc: 0.6676
+51  trn_acc: 1.0000  val_acc: 0.7588  tst_acc: 0.7588
+52  trn_acc: 1.0000  val_acc: 0.7353  tst_acc: 0.7147
+53  trn_acc: 0.9985  val_acc: 0.7176  tst_acc: 0.6824
+54  trn_acc: 0.9912  val_acc: 0.7088  tst_acc: 0.7206
+55  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7471
+56  trn_acc: 1.0000  val_acc: 0.7529  tst_acc: 0.7529
+57  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7471
+58  trn_acc: 1.0000  val_acc: 0.7618  tst_acc: 0.7941
+59  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7294
+60  trn_acc: 0.9941  val_acc: 0.6971  tst_acc: 0.6941
+61  trn_acc: 0.9912  val_acc: 0.6765  tst_acc: 0.6676
+62  trn_acc: 0.9824  val_acc: 0.6588  tst_acc: 0.6735
+63  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6853
+64  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7176
+65  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7382
+66  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.7059
+67  trn_acc: 0.9971  val_acc: 0.7265  tst_acc: 0.7176
+68  trn_acc: 0.9985  val_acc: 0.6971  tst_acc: 0.7412
+69  trn_acc: 0.9941  val_acc: 0.7353  tst_acc: 0.7588
+70  trn_acc: 0.9912  val_acc: 0.6941  tst_acc: 0.6588
+71  trn_acc: 0.9985  val_acc: 0.7176  tst_acc: 0.7500
+72  trn_acc: 1.0000  val_acc: 0.7706  tst_acc: 0.7706
+73  trn_acc: 0.9897  val_acc: 0.6500  tst_acc: 0.6500
+74  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7441
+75  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7412
+76  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7500
+77  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7118
+78  trn_acc: 1.0000  val_acc: 0.7353  tst_acc: 0.7118
+79  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7235
+80  trn_acc: 1.0000  val_acc: 0.7588  tst_acc: 0.7441
+81  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7059
+82  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7324
+83  trn_acc: 0.9279  val_acc: 0.5853  tst_acc: 0.5529
+84  trn_acc: 0.9824  val_acc: 0.6647  tst_acc: 0.6941
+85  trn_acc: 0.9882  val_acc: 0.6794  tst_acc: 0.7029
+86  trn_acc: 1.0000  val_acc: 0.7500  tst_acc: 0.7529
+87  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7647
+88  trn_acc: 1.0000  val_acc: 0.7559  tst_acc: 0.7559
+89  trn_acc: 0.9956  val_acc: 0.7088  tst_acc: 0.7118
+90  trn_acc: 1.0000  val_acc: 0.7588  tst_acc: 0.7176
+91  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7500
+92  trn_acc: 1.0000  val_acc: 0.7529  tst_acc: 0.7618
+93  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7676
+94  trn_acc: 1.0000  val_acc: 0.7647  tst_acc: 0.7500
+95  trn_acc: 1.0000  val_acc: 0.7912  tst_acc: 0.7794
+96  trn_acc: 1.0000  val_acc: 0.7471  tst_acc: 0.7882
+97  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7235
+98  trn_acc: 1.0000  val_acc: 0.7500  tst_acc: 0.7559
+99  trn_acc: 1.0000  val_acc: 0.7706  tst_acc: 0.7647
+100  trn_acc: 1.0000  val_acc: 0.7794  tst_acc: 0.7471
+101  trn_acc: 1.0000  val_acc: 0.7735  tst_acc: 0.7794
+102  trn_acc: 1.0000  val_acc: 0.7412  tst_acc: 0.7206
+103  trn_acc: 1.0000  val_acc: 0.7735  tst_acc: 0.7794
+104  trn_acc: 1.0000  val_acc: 0.7912  tst_acc: 0.7824
+105  trn_acc: 1.0000  val_acc: 0.7941  tst_acc: 0.7882
+106  trn_acc: 1.0000  val_acc: 0.7853  tst_acc: 0.7706
+107  trn_acc: 1.0000  val_acc: 0.7735  tst_acc: 0.7618
+108  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7235
+109  trn_acc: 1.0000  val_acc: 0.7353  tst_acc: 0.7441
+110  trn_acc: 1.0000  val_acc: 0.7647  tst_acc: 0.7765
+111  trn_acc: 1.0000  val_acc: 0.7529  tst_acc: 0.7853
+112  trn_acc: 1.0000  val_acc: 0.7353  tst_acc: 0.7588
+113  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7441
+114  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7500
+115  trn_acc: 1.0000  val_acc: 0.7529  tst_acc: 0.7618
+116  trn_acc: 1.0000  val_acc: 0.7676  tst_acc: 0.7765
+117  trn_acc: 1.0000  val_acc: 0.7588  tst_acc: 0.7412
+118  trn_acc: 1.0000  val_acc: 0.7824  tst_acc: 0.7912
+119  trn_acc: 1.0000  val_acc: 0.7676  tst_acc: 0.7559
+120  trn_acc: 1.0000  val_acc: 0.7765  tst_acc: 0.7676
+105 0.7882 0.7941 1.0000 1.0000
+0.7843 0.7431
+
+
+
+
+
+
+
+getResNet50
+
+Doing: 1
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 256)
+(?, 28, 28, 512)
+(?, 14, 14, 1024)
+(?, 7, 7, 2048)
+(?, 1, 1, 2048)
+(?, 17)
+1  trn_acc: 0.0588  val_acc: 0.0588  tst_acc: 0.0588
+2  trn_acc: 0.0588  val_acc: 0.0588  tst_acc: 0.0588
+3  trn_acc: 0.1044  val_acc: 0.0912  tst_acc: 0.0912
+4  trn_acc: 0.2338  val_acc: 0.1912  tst_acc: 0.2235
+5  trn_acc: 0.1426  val_acc: 0.1147  tst_acc: 0.1235
+6  trn_acc: 0.1779  val_acc: 0.1588  tst_acc: 0.1706
+7  trn_acc: 0.3147  val_acc: 0.2471  tst_acc: 0.2765
+8  trn_acc: 0.5029  val_acc: 0.3765  tst_acc: 0.4382
+9  trn_acc: 0.3647  val_acc: 0.2941  tst_acc: 0.2912
+10  trn_acc: 0.4559  val_acc: 0.3176  tst_acc: 0.3441
+11  trn_acc: 0.6853  val_acc: 0.4676  tst_acc: 0.4941
+12  trn_acc: 0.7618  val_acc: 0.4735  tst_acc: 0.5382
+13  trn_acc: 0.7941  val_acc: 0.4765  tst_acc: 0.5382
+14  trn_acc: 0.7838  val_acc: 0.4824  tst_acc: 0.5382
+15  trn_acc: 0.7074  val_acc: 0.4794  tst_acc: 0.5382
+16  trn_acc: 0.9162  val_acc: 0.5647  tst_acc: 0.6853
+17  trn_acc: 0.6838  val_acc: 0.4559  tst_acc: 0.4853
+18  trn_acc: 0.6559  val_acc: 0.4029  tst_acc: 0.4529
+19  trn_acc: 0.9000  val_acc: 0.5412  tst_acc: 0.6118
+20  trn_acc: 0.9324  val_acc: 0.5588  tst_acc: 0.6588
+21  trn_acc: 0.8368  val_acc: 0.4618  tst_acc: 0.5265
+22  trn_acc: 0.9926  val_acc: 0.6735  tst_acc: 0.7353
+23  trn_acc: 0.8618  val_acc: 0.5059  tst_acc: 0.5618
+24  trn_acc: 0.9574  val_acc: 0.5588  tst_acc: 0.6235
+25  trn_acc: 0.9809  val_acc: 0.6147  tst_acc: 0.6882
+26  trn_acc: 0.9309  val_acc: 0.5294  tst_acc: 0.6382
+27  trn_acc: 0.9618  val_acc: 0.5824  tst_acc: 0.6765
+28  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7471
+29  trn_acc: 0.9809  val_acc: 0.6353  tst_acc: 0.6647
+30  trn_acc: 0.9735  val_acc: 0.6382  tst_acc: 0.6853
+31  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.7088
+32  trn_acc: 0.9426  val_acc: 0.5353  tst_acc: 0.5882
+33  trn_acc: 0.9765  val_acc: 0.5706  tst_acc: 0.6529
+34  trn_acc: 0.9809  val_acc: 0.5735  tst_acc: 0.6529
+35  trn_acc: 0.9485  val_acc: 0.5235  tst_acc: 0.6147
+36  trn_acc: 0.9809  val_acc: 0.6471  tst_acc: 0.6941
+37  trn_acc: 0.9912  val_acc: 0.6265  tst_acc: 0.6824
+38  trn_acc: 0.9971  val_acc: 0.6529  tst_acc: 0.7412
+39  trn_acc: 0.9956  val_acc: 0.6147  tst_acc: 0.6500
+40  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7471
+41  trn_acc: 1.0000  val_acc: 0.6382  tst_acc: 0.7382
+42  trn_acc: 1.0000  val_acc: 0.6588  tst_acc: 0.7000
+43  trn_acc: 0.9985  val_acc: 0.6588  tst_acc: 0.7088
+44  trn_acc: 0.9956  val_acc: 0.6235  tst_acc: 0.6647
+45  trn_acc: 0.9985  val_acc: 0.6676  tst_acc: 0.7000
+46  trn_acc: 0.9985  val_acc: 0.6412  tst_acc: 0.7176
+47  trn_acc: 0.9941  val_acc: 0.6559  tst_acc: 0.7147
+48  trn_acc: 1.0000  val_acc: 0.6588  tst_acc: 0.7324
+49  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7265
+50  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.7294
+51  trn_acc: 1.0000  val_acc: 0.6676  tst_acc: 0.7206
+52  trn_acc: 1.0000  val_acc: 0.6588  tst_acc: 0.7059
+53  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7441
+54  trn_acc: 0.9985  val_acc: 0.6706  tst_acc: 0.7118
+55  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.7265
+56  trn_acc: 0.9985  val_acc: 0.6618  tst_acc: 0.7441
+57  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.7353
+58  trn_acc: 0.9853  val_acc: 0.6176  tst_acc: 0.6853
+59  trn_acc: 0.9985  val_acc: 0.6706  tst_acc: 0.7353
+60  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.7294
+61  trn_acc: 0.9985  val_acc: 0.6765  tst_acc: 0.7294
+62  trn_acc: 0.9912  val_acc: 0.6088  tst_acc: 0.6735
+63  trn_acc: 0.9176  val_acc: 0.5412  tst_acc: 0.5853
+64  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.7088
+65  trn_acc: 0.9985  val_acc: 0.6706  tst_acc: 0.7029
+66  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7353
+67  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7529
+68  trn_acc: 0.9809  val_acc: 0.6176  tst_acc: 0.6500
+69  trn_acc: 1.0000  val_acc: 0.6412  tst_acc: 0.6912
+70  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7412
+71  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7529
+72  trn_acc: 1.0000  val_acc: 0.6676  tst_acc: 0.7265
+73  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7941
+74  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7441
+75  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7559
+76  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7441
+77  trn_acc: 0.9985  val_acc: 0.6824  tst_acc: 0.7353
+78  trn_acc: 0.9985  val_acc: 0.6588  tst_acc: 0.7353
+79  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7235
+80  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7735
+81  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7588
+82  trn_acc: 0.9985  val_acc: 0.6382  tst_acc: 0.7147
+83  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7412
+84  trn_acc: 0.9926  val_acc: 0.6000  tst_acc: 0.6824
+85  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7235
+86  trn_acc: 0.9985  val_acc: 0.6706  tst_acc: 0.7176
+87  trn_acc: 0.9882  val_acc: 0.6412  tst_acc: 0.7059
+88  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7088
+89  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7618
+90  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7647
+91  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7647
+92  trn_acc: 0.9985  val_acc: 0.6588  tst_acc: 0.7206
+93  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.7441
+94  trn_acc: 1.0000  val_acc: 0.6559  tst_acc: 0.7029
+95  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7765
+96  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7588
+97  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7676
+98  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7559
+99  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7471
+100  trn_acc: 0.9985  val_acc: 0.7000  tst_acc: 0.7265
+101  trn_acc: 0.9985  val_acc: 0.6882  tst_acc: 0.7265
+102  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.6971
+103  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7441
+104  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7529
+105  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7618
+106  trn_acc: 1.0000  val_acc: 0.6324  tst_acc: 0.7412
+107  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.7294
+108  trn_acc: 0.9985  val_acc: 0.6618  tst_acc: 0.7176
+109  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7324
+110  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7471
+111  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7265
+112  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7206
+113  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7529
+114  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.7412
+115  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.7353
+116  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7676
+117  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.7529
+118  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.7441
+119  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7706
+120  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7882
+110 0.7471 0.7382 1.0000 1.0000
+
+Doing: 2
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 256)
+(?, 28, 28, 512)
+(?, 14, 14, 1024)
+(?, 7, 7, 2048)
+(?, 1, 1, 2048)
+(?, 17)
+1  trn_acc: 0.0662  val_acc: 0.0676  tst_acc: 0.0647
+2  trn_acc: 0.0985  val_acc: 0.1029  tst_acc: 0.1059
+3  trn_acc: 0.0912  val_acc: 0.0765  tst_acc: 0.1000
+4  trn_acc: 0.1441  val_acc: 0.1471  tst_acc: 0.1206
+5  trn_acc: 0.2206  val_acc: 0.2324  tst_acc: 0.1853
+6  trn_acc: 0.2985  val_acc: 0.2412  tst_acc: 0.2176
+7  trn_acc: 0.4015  val_acc: 0.3029  tst_acc: 0.2882
+8  trn_acc: 0.4838  val_acc: 0.3794  tst_acc: 0.3412
+9  trn_acc: 0.4676  val_acc: 0.3588  tst_acc: 0.3500
+10  trn_acc: 0.4985  val_acc: 0.3676  tst_acc: 0.3735
+11  trn_acc: 0.5206  val_acc: 0.4059  tst_acc: 0.3824
+12  trn_acc: 0.6926  val_acc: 0.4588  tst_acc: 0.4118
+13  trn_acc: 0.7191  val_acc: 0.4588  tst_acc: 0.4176
+14  trn_acc: 0.8735  val_acc: 0.5882  tst_acc: 0.5618
+15  trn_acc: 0.9853  val_acc: 0.6559  tst_acc: 0.6265
+16  trn_acc: 0.8059  val_acc: 0.4794  tst_acc: 0.4794
+17  trn_acc: 0.9735  val_acc: 0.6441  tst_acc: 0.6029
+18  trn_acc: 0.9426  val_acc: 0.5971  tst_acc: 0.5735
+19  trn_acc: 0.7956  val_acc: 0.5206  tst_acc: 0.5176
+20  trn_acc: 0.9485  val_acc: 0.6059  tst_acc: 0.5647
+21  trn_acc: 0.9206  val_acc: 0.5794  tst_acc: 0.5441
+22  trn_acc: 0.9882  val_acc: 0.5941  tst_acc: 0.5735
+23  trn_acc: 0.9691  val_acc: 0.6294  tst_acc: 0.6118
+24  trn_acc: 0.9279  val_acc: 0.5294  tst_acc: 0.4853
+25  trn_acc: 0.9338  val_acc: 0.5676  tst_acc: 0.5676
+26  trn_acc: 0.9721  val_acc: 0.6353  tst_acc: 0.5588
+27  trn_acc: 0.9794  val_acc: 0.6382  tst_acc: 0.5941
+28  trn_acc: 0.9044  val_acc: 0.5000  tst_acc: 0.4971
+29  trn_acc: 0.9853  val_acc: 0.6000  tst_acc: 0.5971
+30  trn_acc: 0.8971  val_acc: 0.4882  tst_acc: 0.5265
+31  trn_acc: 0.9721  val_acc: 0.5706  tst_acc: 0.5412
+32  trn_acc: 0.9926  val_acc: 0.6324  tst_acc: 0.6147
+33  trn_acc: 0.9971  val_acc: 0.6618  tst_acc: 0.5882
+34  trn_acc: 0.9838  val_acc: 0.6441  tst_acc: 0.5735
+35  trn_acc: 0.9985  val_acc: 0.6471  tst_acc: 0.6500
+36  trn_acc: 0.9853  val_acc: 0.6088  tst_acc: 0.5765
+37  trn_acc: 0.9721  val_acc: 0.5471  tst_acc: 0.5471
+38  trn_acc: 0.9735  val_acc: 0.6088  tst_acc: 0.5794
+39  trn_acc: 0.9941  val_acc: 0.6206  tst_acc: 0.6176
+40  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.6824
+41  trn_acc: 0.9985  val_acc: 0.6088  tst_acc: 0.5824
+42  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.6265
+43  trn_acc: 0.9779  val_acc: 0.6000  tst_acc: 0.5647
+44  trn_acc: 0.9794  val_acc: 0.5765  tst_acc: 0.5794
+45  trn_acc: 0.9941  val_acc: 0.6412  tst_acc: 0.6441
+46  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6529
+47  trn_acc: 1.0000  val_acc: 0.6441  tst_acc: 0.6706
+48  trn_acc: 0.9765  val_acc: 0.5941  tst_acc: 0.5324
+49  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.6529
+50  trn_acc: 1.0000  val_acc: 0.6324  tst_acc: 0.6176
+51  trn_acc: 0.9985  val_acc: 0.6471  tst_acc: 0.6588
+52  trn_acc: 1.0000  val_acc: 0.6529  tst_acc: 0.6294
+53  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6441
+54  trn_acc: 1.0000  val_acc: 0.6676  tst_acc: 0.6559
+55  trn_acc: 1.0000  val_acc: 0.6000  tst_acc: 0.5882
+56  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6529
+57  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6882
+58  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6382
+59  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.6676
+60  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.6059
+61  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6382
+62  trn_acc: 0.9985  val_acc: 0.6882  tst_acc: 0.6353
+63  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.6471
+64  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.6559
+65  trn_acc: 1.0000  val_acc: 0.7412  tst_acc: 0.6324
+66  trn_acc: 0.9882  val_acc: 0.6471  tst_acc: 0.6118
+67  trn_acc: 1.0000  val_acc: 0.6559  tst_acc: 0.6147
+68  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6147
+69  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.6676
+70  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.6559
+71  trn_acc: 0.9941  val_acc: 0.6853  tst_acc: 0.6412
+72  trn_acc: 0.9985  val_acc: 0.6647  tst_acc: 0.6324
+73  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6176
+74  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6588
+75  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.6412
+76  trn_acc: 0.9956  val_acc: 0.6206  tst_acc: 0.5735
+77  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.6324
+78  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6765
+79  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6706
+80  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.6118
+81  trn_acc: 0.9897  val_acc: 0.6294  tst_acc: 0.5794
+82  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6412
+83  trn_acc: 1.0000  val_acc: 0.6471  tst_acc: 0.6206
+84  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.6412
+85  trn_acc: 0.9985  val_acc: 0.6618  tst_acc: 0.6147
+86  trn_acc: 0.9971  val_acc: 0.6176  tst_acc: 0.5971
+87  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.6382
+88  trn_acc: 1.0000  val_acc: 0.6500  tst_acc: 0.5882
+89  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.6706
+90  trn_acc: 0.8206  val_acc: 0.4353  tst_acc: 0.4118
+91  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6794
+92  trn_acc: 1.0000  val_acc: 0.6265  tst_acc: 0.5794
+93  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.5912
+94  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.6324
+95  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.6235
+96  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6265
+97  trn_acc: 0.9985  val_acc: 0.6912  tst_acc: 0.6441
+98  trn_acc: 0.9971  val_acc: 0.6706  tst_acc: 0.6235
+99  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.6500
+100  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6265
+101  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.6588
+102  trn_acc: 1.0000  val_acc: 0.7265  tst_acc: 0.6765
+103  trn_acc: 1.0000  val_acc: 0.6588  tst_acc: 0.6029
+104  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.6324
+105  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.6500
+106  trn_acc: 0.9985  val_acc: 0.6588  tst_acc: 0.6000
+107  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6529
+108  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6118
+109  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.6676
+110  trn_acc: 0.9985  val_acc: 0.6618  tst_acc: 0.6294
+111  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.6588
+112  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6294
+113  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.5735
+114  trn_acc: 1.0000  val_acc: 0.6265  tst_acc: 0.5971
+115  trn_acc: 0.9912  val_acc: 0.5500  tst_acc: 0.5382
+116  trn_acc: 1.0000  val_acc: 0.6441  tst_acc: 0.5971
+117  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6235
+118  trn_acc: 0.9985  val_acc: 0.6794  tst_acc: 0.6500
+119  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6412
+120  trn_acc: 0.9985  val_acc: 0.6735  tst_acc: 0.6235
+65 0.6324 0.7412 1.0000 1.0000
+
+Doing: 3
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 256)
+(?, 28, 28, 512)
+(?, 14, 14, 1024)
+(?, 7, 7, 2048)
+(?, 1, 1, 2048)
+(?, 17)
+1  trn_acc: 0.0588  val_acc: 0.0588  tst_acc: 0.0588
+2  trn_acc: 0.0882  val_acc: 0.0794  tst_acc: 0.0853
+3  trn_acc: 0.1706  val_acc: 0.1912  tst_acc: 0.1559
+4  trn_acc: 0.2926  val_acc: 0.2559  tst_acc: 0.2559
+5  trn_acc: 0.3397  val_acc: 0.3235  tst_acc: 0.2647
+6  trn_acc: 0.3118  val_acc: 0.2500  tst_acc: 0.2147
+7  trn_acc: 0.2235  val_acc: 0.2059  tst_acc: 0.2029
+8  trn_acc: 0.4456  val_acc: 0.3676  tst_acc: 0.3294
+9  trn_acc: 0.5412  val_acc: 0.3912  tst_acc: 0.4000
+10  trn_acc: 0.6735  val_acc: 0.4676  tst_acc: 0.4529
+11  trn_acc: 0.5103  val_acc: 0.3706  tst_acc: 0.3912
+12  trn_acc: 0.7824  val_acc: 0.5147  tst_acc: 0.5441
+13  trn_acc: 0.8250  val_acc: 0.5618  tst_acc: 0.5235
+14  trn_acc: 0.7118  val_acc: 0.4265  tst_acc: 0.3971
+15  trn_acc: 0.5265  val_acc: 0.3176  tst_acc: 0.3059
+16  trn_acc: 0.8706  val_acc: 0.5647  tst_acc: 0.5294
+17  trn_acc: 0.8574  val_acc: 0.4824  tst_acc: 0.5500
+18  trn_acc: 0.9868  val_acc: 0.6882  tst_acc: 0.6382
+19  trn_acc: 0.9515  val_acc: 0.6029  tst_acc: 0.5588
+20  trn_acc: 0.9662  val_acc: 0.5971  tst_acc: 0.5912
+21  trn_acc: 0.9353  val_acc: 0.5559  tst_acc: 0.5824
+22  trn_acc: 0.8765  val_acc: 0.5176  tst_acc: 0.4912
+23  trn_acc: 0.9853  val_acc: 0.6353  tst_acc: 0.6441
+24  trn_acc: 0.9662  val_acc: 0.6088  tst_acc: 0.6176
+25  trn_acc: 0.9368  val_acc: 0.5559  tst_acc: 0.5941
+26  trn_acc: 0.9794  val_acc: 0.5529  tst_acc: 0.5676
+27  trn_acc: 0.9956  val_acc: 0.7029  tst_acc: 0.6912
+28  trn_acc: 0.9941  val_acc: 0.6529  tst_acc: 0.6618
+29  trn_acc: 0.9162  val_acc: 0.5324  tst_acc: 0.5412
+30  trn_acc: 0.9779  val_acc: 0.6529  tst_acc: 0.6324
+31  trn_acc: 0.9353  val_acc: 0.5500  tst_acc: 0.5706
+32  trn_acc: 0.9794  val_acc: 0.5765  tst_acc: 0.5912
+33  trn_acc: 0.9897  val_acc: 0.6176  tst_acc: 0.6500
+34  trn_acc: 0.9941  val_acc: 0.6382  tst_acc: 0.6471
+35  trn_acc: 0.9882  val_acc: 0.6529  tst_acc: 0.6794
+36  trn_acc: 0.9897  val_acc: 0.6412  tst_acc: 0.6529
+37  trn_acc: 0.9706  val_acc: 0.6265  tst_acc: 0.6500
+38  trn_acc: 0.9941  val_acc: 0.6176  tst_acc: 0.6647
+39  trn_acc: 0.9985  val_acc: 0.6824  tst_acc: 0.7029
+40  trn_acc: 0.9971  val_acc: 0.6353  tst_acc: 0.6735
+41  trn_acc: 0.9956  val_acc: 0.6441  tst_acc: 0.6588
+42  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7000
+43  trn_acc: 0.9971  val_acc: 0.6647  tst_acc: 0.6618
+44  trn_acc: 0.9941  val_acc: 0.5824  tst_acc: 0.6441
+45  trn_acc: 0.9971  val_acc: 0.6294  tst_acc: 0.6294
+46  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.6941
+47  trn_acc: 0.9882  val_acc: 0.5941  tst_acc: 0.6235
+48  trn_acc: 0.9985  val_acc: 0.6794  tst_acc: 0.6588
+49  trn_acc: 0.9985  val_acc: 0.6941  tst_acc: 0.6882
+50  trn_acc: 0.9897  val_acc: 0.6265  tst_acc: 0.6206
+51  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.6735
+52  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6882
+53  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6824
+54  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6971
+55  trn_acc: 0.9941  val_acc: 0.6618  tst_acc: 0.6676
+56  trn_acc: 0.9941  val_acc: 0.6118  tst_acc: 0.6176
+57  trn_acc: 0.9956  val_acc: 0.6706  tst_acc: 0.6824
+58  trn_acc: 0.9559  val_acc: 0.6206  tst_acc: 0.6206
+59  trn_acc: 0.9662  val_acc: 0.5794  tst_acc: 0.6500
+60  trn_acc: 1.0000  val_acc: 0.6529  tst_acc: 0.6353
+61  trn_acc: 0.9985  val_acc: 0.6441  tst_acc: 0.6765
+62  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6765
+63  trn_acc: 0.9985  val_acc: 0.6706  tst_acc: 0.6824
+64  trn_acc: 0.9868  val_acc: 0.5676  tst_acc: 0.5941
+65  trn_acc: 0.9294  val_acc: 0.5206  tst_acc: 0.5235
+66  trn_acc: 0.8735  val_acc: 0.4765  tst_acc: 0.4706
+67  trn_acc: 0.9971  val_acc: 0.6382  tst_acc: 0.6412
+68  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6588
+69  trn_acc: 0.9985  val_acc: 0.6941  tst_acc: 0.6706
+70  trn_acc: 0.9882  val_acc: 0.6441  tst_acc: 0.6471
+71  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6971
+72  trn_acc: 0.9926  val_acc: 0.6147  tst_acc: 0.6618
+73  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.6765
+74  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6735
+75  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6941
+76  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.6912
+77  trn_acc: 0.9956  val_acc: 0.6618  tst_acc: 0.6765
+78  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7294
+79  trn_acc: 0.9941  val_acc: 0.6971  tst_acc: 0.6941
+80  trn_acc: 1.0000  val_acc: 0.7353  tst_acc: 0.7353
+81  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7235
+82  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7059
+83  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.6912
+84  trn_acc: 0.9985  val_acc: 0.6853  tst_acc: 0.7059
+85  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6794
+86  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.6971
+87  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7265
+88  trn_acc: 1.0000  val_acc: 0.6206  tst_acc: 0.6000
+89  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.6765
+90  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.6853
+91  trn_acc: 1.0000  val_acc: 0.7529  tst_acc: 0.7324
+92  trn_acc: 0.9985  val_acc: 0.7000  tst_acc: 0.7206
+93  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7324
+94  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7029
+95  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7059
+96  trn_acc: 0.9985  val_acc: 0.6941  tst_acc: 0.6824
+97  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7147
+98  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7353
+99  trn_acc: 1.0000  val_acc: 0.6265  tst_acc: 0.6353
+100  trn_acc: 0.9985  val_acc: 0.6471  tst_acc: 0.6941
+101  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6912
+102  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.6794
+103  trn_acc: 0.9985  val_acc: 0.7000  tst_acc: 0.6676
+104  trn_acc: 1.0000  val_acc: 0.7294  tst_acc: 0.7147
+105  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7029
+106  trn_acc: 1.0000  val_acc: 0.7441  tst_acc: 0.7647
+107  trn_acc: 1.0000  val_acc: 0.7382  tst_acc: 0.7059
+108  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7000
+109  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.7176
+110  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7118
+111  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.7059
+112  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7147
+113  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7147
+114  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6441
+115  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7059
+116  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7118
+117  trn_acc: 1.0000  val_acc: 0.7353  tst_acc: 0.7265
+118  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.7206
+119  trn_acc: 1.0000  val_acc: 0.7265  tst_acc: 0.7382
+120  trn_acc: 1.0000  val_acc: 0.7235  tst_acc: 0.7294
+91 0.7324 0.7529 1.0000 1.0000
+0.7255 0.7216
+
+
+
+
+
+
+getResNet101
+
+Doing: 1
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 256)
+(?, 28, 28, 512)
+(?, 14, 14, 1024)
+(?, 7, 7, 2048)
+(?, 1, 1, 2048)
+(?, 17)
+1  trn_acc: 0.0588  val_acc: 0.0588  tst_acc: 0.0588
+2  trn_acc: 0.0882  val_acc: 0.0735  tst_acc: 0.0618
+3  trn_acc: 0.0926  val_acc: 0.0706  tst_acc: 0.0765
+4  trn_acc: 0.1324  val_acc: 0.1265  tst_acc: 0.1471
+5  trn_acc: 0.1471  val_acc: 0.1176  tst_acc: 0.1412
+6  trn_acc: 0.0941  val_acc: 0.0912  tst_acc: 0.0824
+7  trn_acc: 0.2868  val_acc: 0.2588  tst_acc: 0.2500
+8  trn_acc: 0.2029  val_acc: 0.1735  tst_acc: 0.2265
+9  trn_acc: 0.5015  val_acc: 0.3676  tst_acc: 0.3882
+10  trn_acc: 0.4441  val_acc: 0.3471  tst_acc: 0.3471
+11  trn_acc: 0.4956  val_acc: 0.3735  tst_acc: 0.4294
+12  trn_acc: 0.2515  val_acc: 0.2118  tst_acc: 0.2471
+13  trn_acc: 0.5382  val_acc: 0.4206  tst_acc: 0.4206
+14  trn_acc: 0.6338  val_acc: 0.4147  tst_acc: 0.4529
+15  trn_acc: 0.6691  val_acc: 0.4529  tst_acc: 0.5176
+16  trn_acc: 0.6912  val_acc: 0.4765  tst_acc: 0.5118
+17  trn_acc: 0.8647  val_acc: 0.5353  tst_acc: 0.6294
+18  trn_acc: 0.8765  val_acc: 0.5647  tst_acc: 0.6206
+19  trn_acc: 0.8618  val_acc: 0.5000  tst_acc: 0.5676
+20  trn_acc: 0.8485  val_acc: 0.5118  tst_acc: 0.5912
+21  trn_acc: 0.6706  val_acc: 0.4147  tst_acc: 0.4471
+22  trn_acc: 0.7868  val_acc: 0.4265  tst_acc: 0.4647
+23  trn_acc: 0.8118  val_acc: 0.4588  tst_acc: 0.5353
+24  trn_acc: 0.9426  val_acc: 0.5353  tst_acc: 0.6118
+25  trn_acc: 0.9456  val_acc: 0.5147  tst_acc: 0.5853
+26  trn_acc: 0.9059  val_acc: 0.5853  tst_acc: 0.5765
+27  trn_acc: 0.9515  val_acc: 0.5882  tst_acc: 0.6676
+28  trn_acc: 0.9706  val_acc: 0.6324  tst_acc: 0.6706
+29  trn_acc: 0.9529  val_acc: 0.5559  tst_acc: 0.5912
+30  trn_acc: 0.9574  val_acc: 0.5765  tst_acc: 0.6235
+31  trn_acc: 0.9544  val_acc: 0.5265  tst_acc: 0.6559
+32  trn_acc: 0.7206  val_acc: 0.4265  tst_acc: 0.4676
+33  trn_acc: 0.8882  val_acc: 0.5382  tst_acc: 0.5824
+34  trn_acc: 0.9926  val_acc: 0.5941  tst_acc: 0.7029
+35  trn_acc: 0.9706  val_acc: 0.6441  tst_acc: 0.6618
+36  trn_acc: 0.9809  val_acc: 0.5647  tst_acc: 0.6529
+37  trn_acc: 0.9985  val_acc: 0.6441  tst_acc: 0.7265
+38  trn_acc: 0.9529  val_acc: 0.5500  tst_acc: 0.6353
+39  trn_acc: 0.9912  val_acc: 0.6029  tst_acc: 0.6971
+40  trn_acc: 1.0000  val_acc: 0.6206  tst_acc: 0.7265
+41  trn_acc: 0.9985  val_acc: 0.6000  tst_acc: 0.7088
+42  trn_acc: 0.9838  val_acc: 0.6118  tst_acc: 0.6647
+43  trn_acc: 0.9603  val_acc: 0.5588  tst_acc: 0.6147
+44  trn_acc: 0.9868  val_acc: 0.5882  tst_acc: 0.6618
+45  trn_acc: 0.9985  val_acc: 0.6118  tst_acc: 0.6824
+46  trn_acc: 0.9618  val_acc: 0.5529  tst_acc: 0.6441
+47  trn_acc: 0.9971  val_acc: 0.5912  tst_acc: 0.6794
+48  trn_acc: 0.9926  val_acc: 0.5765  tst_acc: 0.6412
+49  trn_acc: 1.0000  val_acc: 0.6147  tst_acc: 0.6765
+50  trn_acc: 0.9941  val_acc: 0.6294  tst_acc: 0.7294
+51  trn_acc: 1.0000  val_acc: 0.6176  tst_acc: 0.7088
+52  trn_acc: 0.9971  val_acc: 0.6147  tst_acc: 0.6647
+53  trn_acc: 1.0000  val_acc: 0.6529  tst_acc: 0.7382
+54  trn_acc: 0.9824  val_acc: 0.6147  tst_acc: 0.6735
+55  trn_acc: 0.9779  val_acc: 0.5500  tst_acc: 0.6206
+56  trn_acc: 0.9985  val_acc: 0.6500  tst_acc: 0.7235
+57  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7029
+58  trn_acc: 1.0000  val_acc: 0.6088  tst_acc: 0.6853
+59  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.6794
+60  trn_acc: 0.9397  val_acc: 0.5265  tst_acc: 0.5882
+61  trn_acc: 1.0000  val_acc: 0.6471  tst_acc: 0.7176
+62  trn_acc: 0.9985  val_acc: 0.6235  tst_acc: 0.6735
+63  trn_acc: 1.0000  val_acc: 0.6441  tst_acc: 0.6853
+64  trn_acc: 0.9368  val_acc: 0.5147  tst_acc: 0.6059
+65  trn_acc: 1.0000  val_acc: 0.6265  tst_acc: 0.7000
+66  trn_acc: 1.0000  val_acc: 0.6265  tst_acc: 0.6971
+67  trn_acc: 1.0000  val_acc: 0.6353  tst_acc: 0.6735
+68  trn_acc: 0.9985  val_acc: 0.6088  tst_acc: 0.6500
+69  trn_acc: 1.0000  val_acc: 0.6588  tst_acc: 0.7088
+70  trn_acc: 0.9985  val_acc: 0.6441  tst_acc: 0.6824
+71  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.7088
+72  trn_acc: 0.9971  val_acc: 0.6324  tst_acc: 0.6853
+73  trn_acc: 1.0000  val_acc: 0.6471  tst_acc: 0.7059
+74  trn_acc: 1.0000  val_acc: 0.6500  tst_acc: 0.7000
+75  trn_acc: 0.9971  val_acc: 0.6206  tst_acc: 0.6735
+76  trn_acc: 0.9985  val_acc: 0.6735  tst_acc: 0.7235
+77  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.7176
+78  trn_acc: 1.0000  val_acc: 0.6412  tst_acc: 0.7235
+79  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7000
+80  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.7029
+81  trn_acc: 0.9868  val_acc: 0.6176  tst_acc: 0.6765
+82  trn_acc: 0.9971  val_acc: 0.6588  tst_acc: 0.6765
+83  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.7353
+84  trn_acc: 1.0000  val_acc: 0.6529  tst_acc: 0.7000
+85  trn_acc: 0.9897  val_acc: 0.6147  tst_acc: 0.6882
+86  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7000
+87  trn_acc: 1.0000  val_acc: 0.6441  tst_acc: 0.7206
+88  trn_acc: 0.9956  val_acc: 0.6441  tst_acc: 0.7000
+89  trn_acc: 1.0000  val_acc: 0.6265  tst_acc: 0.6971
+90  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7618
+91  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7382
+92  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7500
+93  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7471
+94  trn_acc: 1.0000  val_acc: 0.6206  tst_acc: 0.7059
+95  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7529
+96  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7412
+97  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.7529
+98  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7441
+99  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7147
+100  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7235
+101  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7647
+102  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.7441
+103  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7441
+104  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.7676
+105  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.7529
+106  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.7382
+107  trn_acc: 1.0000  val_acc: 0.6676  tst_acc: 0.7176
+108  trn_acc: 1.0000  val_acc: 0.6353  tst_acc: 0.7324
+109  trn_acc: 1.0000  val_acc: 0.6559  tst_acc: 0.7118
+110  trn_acc: 1.0000  val_acc: 0.6088  tst_acc: 0.6912
+111  trn_acc: 1.0000  val_acc: 0.6382  tst_acc: 0.7265
+112  trn_acc: 0.9985  val_acc: 0.6206  tst_acc: 0.6441
+113  trn_acc: 1.0000  val_acc: 0.6294  tst_acc: 0.6853
+114  trn_acc: 1.0000  val_acc: 0.6676  tst_acc: 0.7353
+115  trn_acc: 0.9912  val_acc: 0.5647  tst_acc: 0.6529
+116  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.6971
+117  trn_acc: 1.0000  val_acc: 0.6588  tst_acc: 0.7471
+118  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.7529
+119  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.7559
+120  trn_acc: 1.0000  val_acc: 0.6235  tst_acc: 0.6971
+104 0.7676 0.7088 1.0000 1.0000
+
+Doing: 2
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 256)
+(?, 28, 28, 512)
+(?, 14, 14, 1024)
+(?, 7, 7, 2048)
+(?, 1, 1, 2048)
+(?, 17)
+1  trn_acc: 0.0588  val_acc: 0.0588  tst_acc: 0.0588
+2  trn_acc: 0.0588  val_acc: 0.0588  tst_acc: 0.0588
+3  trn_acc: 0.1471  val_acc: 0.1500  tst_acc: 0.1324
+4  trn_acc: 0.1324  val_acc: 0.1118  tst_acc: 0.1412
+5  trn_acc: 0.2794  val_acc: 0.2765  tst_acc: 0.2618
+6  trn_acc: 0.1235  val_acc: 0.1088  tst_acc: 0.1059
+7  trn_acc: 0.3044  val_acc: 0.3147  tst_acc: 0.2706
+8  trn_acc: 0.2824  val_acc: 0.3000  tst_acc: 0.2500
+9  trn_acc: 0.4118  val_acc: 0.3294  tst_acc: 0.3441
+10  trn_acc: 0.3265  val_acc: 0.3382  tst_acc: 0.2882
+11  trn_acc: 0.2956  val_acc: 0.2324  tst_acc: 0.2824
+12  trn_acc: 0.4162  val_acc: 0.3059  tst_acc: 0.2882
+13  trn_acc: 0.6603  val_acc: 0.5500  tst_acc: 0.5265
+14  trn_acc: 0.4426  val_acc: 0.3412  tst_acc: 0.3500
+15  trn_acc: 0.1985  val_acc: 0.1941  tst_acc: 0.2029
+16  trn_acc: 0.6088  val_acc: 0.4441  tst_acc: 0.4353
+17  trn_acc: 0.7441  val_acc: 0.5647  tst_acc: 0.5559
+18  trn_acc: 0.4985  val_acc: 0.4382  tst_acc: 0.4265
+19  trn_acc: 0.7250  val_acc: 0.5059  tst_acc: 0.4824
+20  trn_acc: 0.6941  val_acc: 0.5000  tst_acc: 0.5353
+21  trn_acc: 0.7294  val_acc: 0.5559  tst_acc: 0.4794
+22  trn_acc: 0.7824  val_acc: 0.6118  tst_acc: 0.5529
+23  trn_acc: 0.8485  val_acc: 0.5647  tst_acc: 0.5676
+24  trn_acc: 0.7559  val_acc: 0.5235  tst_acc: 0.4853
+25  trn_acc: 0.8824  val_acc: 0.5382  tst_acc: 0.5647
+26  trn_acc: 0.9176  val_acc: 0.6353  tst_acc: 0.5882
+27  trn_acc: 0.9191  val_acc: 0.6029  tst_acc: 0.5676
+28  trn_acc: 0.9853  val_acc: 0.6853  tst_acc: 0.6471
+29  trn_acc: 0.9324  val_acc: 0.5941  tst_acc: 0.5941
+30  trn_acc: 0.9647  val_acc: 0.6500  tst_acc: 0.6529
+31  trn_acc: 0.9750  val_acc: 0.6471  tst_acc: 0.6294
+32  trn_acc: 0.9574  val_acc: 0.6353  tst_acc: 0.5971
+33  trn_acc: 0.9676  val_acc: 0.6500  tst_acc: 0.6059
+34  trn_acc: 0.8824  val_acc: 0.5118  tst_acc: 0.5088
+35  trn_acc: 0.9985  val_acc: 0.6941  tst_acc: 0.6618
+36  trn_acc: 0.9956  val_acc: 0.7000  tst_acc: 0.6706
+37  trn_acc: 0.9956  val_acc: 0.6824  tst_acc: 0.6676
+38  trn_acc: 0.9985  val_acc: 0.6941  tst_acc: 0.6735
+39  trn_acc: 0.9912  val_acc: 0.6441  tst_acc: 0.6353
+40  trn_acc: 0.9971  val_acc: 0.6882  tst_acc: 0.6794
+41  trn_acc: 0.9853  val_acc: 0.6588  tst_acc: 0.6559
+42  trn_acc: 0.8426  val_acc: 0.4882  tst_acc: 0.4941
+43  trn_acc: 0.9735  val_acc: 0.6176  tst_acc: 0.6235
+44  trn_acc: 0.9926  val_acc: 0.6265  tst_acc: 0.6147
+45  trn_acc: 0.9824  val_acc: 0.6294  tst_acc: 0.5912
+46  trn_acc: 0.9809  val_acc: 0.6059  tst_acc: 0.5971
+47  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.6235
+48  trn_acc: 0.9956  val_acc: 0.6559  tst_acc: 0.6500
+49  trn_acc: 0.9985  val_acc: 0.6500  tst_acc: 0.6647
+50  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7059
+51  trn_acc: 0.9926  val_acc: 0.6588  tst_acc: 0.6265
+52  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6853
+53  trn_acc: 1.0000  val_acc: 0.6529  tst_acc: 0.6706
+54  trn_acc: 0.9985  val_acc: 0.6588  tst_acc: 0.6706
+55  trn_acc: 0.9956  val_acc: 0.6206  tst_acc: 0.6529
+56  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6941
+57  trn_acc: 0.9912  val_acc: 0.6176  tst_acc: 0.6500
+58  trn_acc: 1.0000  val_acc: 0.6265  tst_acc: 0.6176
+59  trn_acc: 0.9956  val_acc: 0.6382  tst_acc: 0.6382
+60  trn_acc: 0.9838  val_acc: 0.6088  tst_acc: 0.5824
+61  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.6647
+62  trn_acc: 0.9985  val_acc: 0.6559  tst_acc: 0.6676
+63  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6853
+64  trn_acc: 0.9912  val_acc: 0.5824  tst_acc: 0.5735
+65  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6706
+66  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.6794
+67  trn_acc: 0.9985  val_acc: 0.6794  tst_acc: 0.6647
+68  trn_acc: 0.8779  val_acc: 0.5382  tst_acc: 0.4941
+69  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.6794
+70  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6882
+71  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.6853
+72  trn_acc: 0.9985  val_acc: 0.6735  tst_acc: 0.6382
+73  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6588
+74  trn_acc: 1.0000  val_acc: 0.7353  tst_acc: 0.6618
+75  trn_acc: 1.0000  val_acc: 0.6529  tst_acc: 0.6471
+76  trn_acc: 0.9985  val_acc: 0.6765  tst_acc: 0.6735
+77  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6912
+78  trn_acc: 0.9985  val_acc: 0.6647  tst_acc: 0.6676
+79  trn_acc: 0.9897  val_acc: 0.6441  tst_acc: 0.6559
+80  trn_acc: 0.9824  val_acc: 0.6588  tst_acc: 0.6353
+81  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.6971
+82  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6706
+83  trn_acc: 0.9985  val_acc: 0.6824  tst_acc: 0.6941
+84  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6676
+85  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6765
+86  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6676
+87  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7235
+88  trn_acc: 1.0000  val_acc: 0.6500  tst_acc: 0.6412
+89  trn_acc: 0.9941  val_acc: 0.6294  tst_acc: 0.6618
+90  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.6500
+91  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6853
+92  trn_acc: 1.0000  val_acc: 0.6676  tst_acc: 0.6824
+93  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.6794
+94  trn_acc: 0.9985  val_acc: 0.7059  tst_acc: 0.7029
+95  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6941
+96  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7059
+97  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.6824
+98  trn_acc: 0.9941  val_acc: 0.6500  tst_acc: 0.6559
+99  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6765
+100  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.7118
+101  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7176
+102  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7029
+103  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.6971
+104  trn_acc: 1.0000  val_acc: 0.6676  tst_acc: 0.6794
+105  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6765
+106  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6882
+107  trn_acc: 0.9985  val_acc: 0.6941  tst_acc: 0.6853
+108  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6441
+109  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7176
+110  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.7176
+111  trn_acc: 1.0000  val_acc: 0.7324  tst_acc: 0.7088
+112  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.6882
+113  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6765
+114  trn_acc: 0.9971  val_acc: 0.6765  tst_acc: 0.6735
+115  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.7059
+116  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.6853
+117  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6735
+118  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.6765
+119  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.6765
+120  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.7000
+74 0.6618 0.7353 1.0000 1.0000
+
+Doing: 3
+(?, 111, 111, 64)
+(?, 55, 55, 64)
+(?, 55, 55, 256)
+(?, 28, 28, 512)
+(?, 14, 14, 1024)
+(?, 7, 7, 2048)
+(?, 1, 1, 2048)
+(?, 17)
+1  trn_acc: 0.0588  val_acc: 0.0559  tst_acc: 0.0588
+2  trn_acc: 0.0838  val_acc: 0.0853  tst_acc: 0.0882
+3  trn_acc: 0.1868  val_acc: 0.1735  tst_acc: 0.1824
+4  trn_acc: 0.1515  val_acc: 0.1235  tst_acc: 0.1353
+5  trn_acc: 0.0618  val_acc: 0.0618  tst_acc: 0.0588
+6  trn_acc: 0.2162  val_acc: 0.2059  tst_acc: 0.1941
+7  trn_acc: 0.4632  val_acc: 0.3206  tst_acc: 0.3559
+8  trn_acc: 0.2868  val_acc: 0.2529  tst_acc: 0.2500
+9  trn_acc: 0.2412  val_acc: 0.2000  tst_acc: 0.2176
+10  trn_acc: 0.5353  val_acc: 0.4294  tst_acc: 0.3912
+11  trn_acc: 0.5691  val_acc: 0.4500  tst_acc: 0.3971
+12  trn_acc: 0.3544  val_acc: 0.2765  tst_acc: 0.2647
+13  trn_acc: 0.5279  val_acc: 0.4206  tst_acc: 0.3853
+14  trn_acc: 0.7397  val_acc: 0.5147  tst_acc: 0.4941
+15  trn_acc: 0.7471  val_acc: 0.5176  tst_acc: 0.5235
+16  trn_acc: 0.8044  val_acc: 0.4765  tst_acc: 0.4824
+17  trn_acc: 0.8059  val_acc: 0.5794  tst_acc: 0.5088
+18  trn_acc: 0.9088  val_acc: 0.5882  tst_acc: 0.5941
+19  trn_acc: 0.7500  val_acc: 0.4794  tst_acc: 0.4618
+20  trn_acc: 0.8765  val_acc: 0.5235  tst_acc: 0.5206
+21  trn_acc: 0.9529  val_acc: 0.5941  tst_acc: 0.5765
+22  trn_acc: 0.9485  val_acc: 0.6206  tst_acc: 0.5912
+23  trn_acc: 0.9750  val_acc: 0.6088  tst_acc: 0.6559
+24  trn_acc: 0.8912  val_acc: 0.5176  tst_acc: 0.5559
+25  trn_acc: 0.9500  val_acc: 0.5971  tst_acc: 0.6000
+26  trn_acc: 0.9941  val_acc: 0.6471  tst_acc: 0.6529
+27  trn_acc: 0.9515  val_acc: 0.5441  tst_acc: 0.5500
+28  trn_acc: 0.9838  val_acc: 0.5971  tst_acc: 0.6353
+29  trn_acc: 0.9632  val_acc: 0.6088  tst_acc: 0.6206
+30  trn_acc: 0.9926  val_acc: 0.6294  tst_acc: 0.6471
+31  trn_acc: 0.9853  val_acc: 0.5971  tst_acc: 0.6059
+32  trn_acc: 0.9544  val_acc: 0.5706  tst_acc: 0.5824
+33  trn_acc: 0.9544  val_acc: 0.5324  tst_acc: 0.5500
+34  trn_acc: 1.0000  val_acc: 0.6412  tst_acc: 0.6647
+35  trn_acc: 0.9882  val_acc: 0.6265  tst_acc: 0.6647
+36  trn_acc: 0.9853  val_acc: 0.6206  tst_acc: 0.6206
+37  trn_acc: 0.9868  val_acc: 0.6559  tst_acc: 0.6941
+38  trn_acc: 0.9794  val_acc: 0.6206  tst_acc: 0.6118
+39  trn_acc: 0.9941  val_acc: 0.6324  tst_acc: 0.6324
+40  trn_acc: 0.9721  val_acc: 0.6235  tst_acc: 0.6441
+41  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6618
+42  trn_acc: 0.9971  val_acc: 0.6765  tst_acc: 0.6824
+43  trn_acc: 1.0000  val_acc: 0.6588  tst_acc: 0.6588
+44  trn_acc: 0.9926  val_acc: 0.6441  tst_acc: 0.6706
+45  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.7265
+46  trn_acc: 0.9456  val_acc: 0.5529  tst_acc: 0.5618
+47  trn_acc: 0.9912  val_acc: 0.6206  tst_acc: 0.5882
+48  trn_acc: 0.9706  val_acc: 0.5382  tst_acc: 0.5500
+49  trn_acc: 0.9662  val_acc: 0.5588  tst_acc: 0.5324
+50  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.7059
+51  trn_acc: 1.0000  val_acc: 0.6176  tst_acc: 0.6500
+52  trn_acc: 1.0000  val_acc: 0.6676  tst_acc: 0.6529
+53  trn_acc: 0.9985  val_acc: 0.6500  tst_acc: 0.6529
+54  trn_acc: 0.9985  val_acc: 0.6647  tst_acc: 0.6618
+55  trn_acc: 0.9941  val_acc: 0.6529  tst_acc: 0.6235
+56  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.7059
+57  trn_acc: 0.9985  val_acc: 0.6706  tst_acc: 0.6882
+58  trn_acc: 0.9985  val_acc: 0.6676  tst_acc: 0.6500
+59  trn_acc: 0.9985  val_acc: 0.6382  tst_acc: 0.6294
+60  trn_acc: 0.9985  val_acc: 0.6765  tst_acc: 0.6588
+61  trn_acc: 1.0000  val_acc: 0.7118  tst_acc: 0.6765
+62  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6706
+63  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6529
+64  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.6971
+65  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.6706
+66  trn_acc: 0.9926  val_acc: 0.6618  tst_acc: 0.6500
+67  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.6706
+68  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.6735
+69  trn_acc: 1.0000  val_acc: 0.6353  tst_acc: 0.6588
+70  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.6853
+71  trn_acc: 0.9956  val_acc: 0.6676  tst_acc: 0.6853
+72  trn_acc: 1.0000  val_acc: 0.7088  tst_acc: 0.6912
+73  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.6441
+74  trn_acc: 1.0000  val_acc: 0.6941  tst_acc: 0.6441
+75  trn_acc: 1.0000  val_acc: 0.7176  tst_acc: 0.6647
+76  trn_acc: 1.0000  val_acc: 0.7206  tst_acc: 0.6971
+77  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.6794
+78  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6676
+79  trn_acc: 1.0000  val_acc: 0.6824  tst_acc: 0.6765
+80  trn_acc: 0.9985  val_acc: 0.6735  tst_acc: 0.6235
+81  trn_acc: 0.9971  val_acc: 0.6265  tst_acc: 0.6382
+82  trn_acc: 0.9985  val_acc: 0.6647  tst_acc: 0.6382
+83  trn_acc: 0.9941  val_acc: 0.6235  tst_acc: 0.5941
+84  trn_acc: 0.9882  val_acc: 0.6000  tst_acc: 0.6029
+85  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6471
+86  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.6735
+87  trn_acc: 0.9971  val_acc: 0.6824  tst_acc: 0.6647
+88  trn_acc: 0.9941  val_acc: 0.6676  tst_acc: 0.6382
+89  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.6882
+90  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7029
+91  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7118
+92  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6912
+93  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6794
+94  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.7000
+95  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.6706
+96  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.6912
+97  trn_acc: 1.0000  val_acc: 0.7029  tst_acc: 0.6824
+98  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.6794
+99  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6912
+100  trn_acc: 1.0000  val_acc: 0.6912  tst_acc: 0.6853
+101  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.6912
+102  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6647
+103  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.6618
+104  trn_acc: 1.0000  val_acc: 0.6735  tst_acc: 0.6529
+105  trn_acc: 1.0000  val_acc: 0.6882  tst_acc: 0.6971
+106  trn_acc: 1.0000  val_acc: 0.7000  tst_acc: 0.6735
+107  trn_acc: 0.9882  val_acc: 0.5912  tst_acc: 0.6294
+108  trn_acc: 0.9985  val_acc: 0.6412  tst_acc: 0.6324
+109  trn_acc: 1.0000  val_acc: 0.6794  tst_acc: 0.6882
+110  trn_acc: 1.0000  val_acc: 0.6765  tst_acc: 0.6735
+111  trn_acc: 1.0000  val_acc: 0.7147  tst_acc: 0.7000
+112  trn_acc: 1.0000  val_acc: 0.7059  tst_acc: 0.7059
+113  trn_acc: 1.0000  val_acc: 0.6618  tst_acc: 0.6794
+114  trn_acc: 1.0000  val_acc: 0.6471  tst_acc: 0.6882
+115  trn_acc: 1.0000  val_acc: 0.6588  tst_acc: 0.6794
+116  trn_acc: 1.0000  val_acc: 0.6853  tst_acc: 0.6912
+117  trn_acc: 0.9985  val_acc: 0.6324  tst_acc: 0.6265
+118  trn_acc: 1.0000  val_acc: 0.6647  tst_acc: 0.6824
+119  trn_acc: 1.0000  val_acc: 0.6971  tst_acc: 0.6765
+120  trn_acc: 1.0000  val_acc: 0.6706  tst_acc: 0.6529
+76 0.6971 0.7206 1.0000 1.0000
+0.7127 0.7127
+
+
+
+
+
