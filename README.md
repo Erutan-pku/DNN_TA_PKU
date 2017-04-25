@@ -14,6 +14,6 @@ PPTs : https://pan.baidu.com/s/1i4IZ7Tj
 
 ### CNN for OxFlowers 17
 
-* 使用卷积神经网络在OxFlowers 17数据集上实现图片分类，实现了一些简单的神经网络以及AlexNet、VGG、ResNet、GoogLeNet。
+* 使用卷积神经网络在OxFlowers 17数据集上实现图片分类，实现了一些简单的卷积神经网络以及AlexNet、VGG、ResNet、GoogLeNet。
 * 详细说明文档：[README.md](https://github.com/Erutan-pku/DNN_TA_PKU/blob/master/17flowers_CNN/README.md ) 
 * 实验报告：[CNN-for-OxFlowers17 报告.pdf](https://github.com/Erutan-pku/DNN_TA_PKU/blob/master/17flowers_CNN/CNN-for-OxFlowers17_报告_PKU-Erutan.pdf)
