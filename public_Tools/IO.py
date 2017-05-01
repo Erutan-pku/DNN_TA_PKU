@@ -7,6 +7,8 @@ GitHub  : https://github.com/Erutan-pku
 
 version : V1.0.0
 date    : April 22nd, 2017
+
+Python 2.7.10
 """
 import csv
 import codecs

@@ -34,28 +34,46 @@ def trainTest(trn_data, val_data, tst_data, ModelFunction) :
     model = ModelFunction()
     score_trn, score_val, score_tst = [], [], []
     for i in range(CNN_Feature['epochs']) :
-        model.fit(trn_x, [trn_y, trn_y], batch_size=CNN_Feature['batch_size'], epochs=1, shuffle=True, verbose=1)
+        model.fit(trn_x, trn_y, batch_size=CNN_Feature['batch_size'], epochs=1, shuffle=True, verbose=0)
+        #model.fit(trn_x, [trn_y, trn_y], batch_size=CNN_Feature['batch_size'], epochs=1, shuffle=True, verbose=0)
+        #model.fit(trn_x, [trn_y, trn_y, trn_y], batch_size=CNN_Feature['batch_size'], epochs=1, shuffle=True, verbose=0)
+        
         if i < CNN_Feature['ignore_print_top'] :
             continue
-        score_trn_i = model.evaluate(trn_x, [trn_y, trn_y], verbose=0)
-        score_val_i = model.evaluate(val_x, [val_y, val_y], verbose=0)
-        score_tst_i = model.evaluate(tst_x, [tst_y, tst_y], verbose=0)
-        print '%.4f  %.4f'%(score_trn_i[3], score_trn_i[4])
-        print '%.4f  %.4f'%(score_val_i[3], score_val_i[4])
-        print '%.4f  %.4f'%(score_tst_i[3], score_tst_i[4])
-        print '%d  trn_acc: %.4f  val_acc: %.4f  tst_acc: %.4f'%(i+1, score_trn_i[3], score_val_i[3], score_tst_i[3])
+        score_trn_i = model.evaluate(trn_x, trn_y, verbose=0)
+        score_val_i = model.evaluate(val_x, val_y, verbose=0)
+        score_tst_i = model.evaluate(tst_x, tst_y, verbose=0)
+        #score_trn_i = model.evaluate(trn_x, [trn_y, trn_y], verbose=0)
+        #score_val_i = model.evaluate(val_x, [val_y, val_y], verbose=0)
+        #score_tst_i = model.evaluate(tst_x, [tst_y, tst_y], verbose=0)
+        #score_trn_i = model.evaluate(trn_x, [trn_y, trn_y, trn_y], verbose=0)
+        #score_val_i = model.evaluate(val_x, [val_y, val_y, val_y], verbose=0)
+        #score_tst_i = model.evaluate(tst_x, [tst_y, tst_y, tst_y], verbose=0)
+        print '%d  trn_acc: %.4f  val_acc: %.4f  tst_acc: %.4f'%(i+1, score_trn_i[1], score_val_i[1], score_tst_i[1])
+        #print '%.4f  %.4f'%(score_trn_i[3], score_trn_i[4])
+        #print '%.4f  %.4f'%(score_val_i[3], score_val_i[4])
+        #print '%.4f  %.4f'%(score_tst_i[3], score_tst_i[4])
+        #print '%d  trn_acc: %.4f  val_acc: %.4f  tst_acc: %.4f'%(i+1, score_trn_i[3], score_val_i[3], score_tst_i[3])
+        #print '%.4f  %.4f  %.4f'%(score_trn_i[4], score_trn_i[5], score_trn_i[6])
+        #print '%.4f  %.4f  %.4f'%(score_val_i[4], score_val_i[5], score_val_i[6])
+        #print '%.4f  %.4f  %.4f'%(score_tst_i[4], score_tst_i[5], score_tst_i[6])
+        #print '%d  trn_acc: %.4f  val_acc: %.4f  tst_acc: %.4f'%(i+1, score_trn_i[4], score_val_i[4], score_tst_i[4])
         score_trn.append(score_trn_i)
         score_val.append(score_val_i)
         score_tst.append(score_tst_i)
-    
-    max_val = max([t[3] for t in score_val])
+    nnn_id = 1
+    #nnn_id = 3
+    #nnn_id = 4
+    #"""
+    max_val = max([t[nnn_id] for t in score_val])
     for i in range(CNN_Feature['epochs'] - CNN_Feature['ignore_print_top']) :
-        if score_val[i][3] >= max_val :
+        if score_val[i][nnn_id] >= max_val :
             iter_i = CNN_Feature['ignore_print_top'] + i + 1
-            max_trn = score_trn[i][3]
-            max_tst = score_tst[i][3]
-    print iter_i, '%.4f'%(max_tst), '%.4f'%(max_val), '%.4f'%(max_trn), '%.4f'%(max([t[1] for t in score_trn]))
-    return [t[3] for t in score_val], [t[3] for t in score_tst]
+            max_trn = score_trn[i][nnn_id]
+            max_tst = score_tst[i][nnn_id]
+    print iter_i, '%.4f'%(max_tst), '%.4f'%(max_val), '%.4f'%(max_trn), '%.4f'%(max([t[nnn_id] for t in score_trn]))
+    return [t[nnn_id] for t in score_val], [t[nnn_id] for t in score_tst]
+    #"""
 
 if __name__ == '__main__':
     """
@@ -71,15 +89,15 @@ if __name__ == '__main__':
         np.save('tst_'+str(seg)+'X.npy', tst_x)
         np.save('tst_'+str(seg)+'Y.npy', tst_y)
     #"""
-    #"""
+    """
     #Models = [getModel_AlexNet, getModel_AlexNet_short, getModel_AlexNet_light, getModel_AlexNet_lighter, getModel_AlexNet_lightest]
     #infor  = ['getModel_AlexNet', 'getModel_AlexNet_short', 'getModel_AlexNet_light', 'getModel_AlexNet_lighter', 'getModel_AlexNet_lightest']
     #Models = [getModel_AlexNet_lightestzf, getModel_AlexNet_lighterzf, getModel_AlexNet_lightzf]
     #infor  = ['getModel_AlexNet_lightestzf', 'getModel_AlexNet_lighterzf', 'getModel_AlexNet_lightzf']
     #Models = [getResNet18, getResNet34, getResNet50]
     #infor  = ['getResNet18', 'getResNet34', 'getResNet50']
-    Models = [getGoogleNet_v3]
-    infor  = ['getGoogleNet_v3']
+    Models = [inception_v1_2like]
+    infor  = ['inception_v1_2like']
     for i, modelFunc in enumerate(Models) :
         print '\n\n\n'+infor[i]
 
@@ -104,30 +122,28 @@ if __name__ == '__main__':
     trn_data, val_data, tst_data = getData(resize=Model_Feature['InputShape'][0:2])
     score_val_i, score_tst_i = trainTest(trn_data, val_data, tst_data, ModelFunction=getResNet50)
     #"""
-    """
+    #"""
     hm = {
-        'getResNet18' : getResNet18,
-        'getResNet34' : getResNet34,
-        'getResNet50' : getResNet50
+        'getGoogleNet_v4' : getGoogleNet_v4,
+        'getGoogleResNet_v1' : getGoogleResNet_v1,
+        'getGoogleResNet_v2' : getGoogleResNet_v2,
+        'getGoogleNet_v1_2like':getGoogleNet_v1_2like,
+        'getGoogleNet_v1_2like_bn':getGoogleNet_v1_2like_bn,
+        'getGoogleNet_v1_2like_morebn':getGoogleNet_v1_2like_morebn,
+        'getGoogleNet_v3_bnall':getGoogleNet_v3_bnall,
+        'getGoogleNet_v4_bn':getGoogleNet_v4_bn,
+        'getGoogleResNet_v1_bn':getGoogleResNet_v1_bn,
+        'getGoogleResNet_v2_bn':getGoogleResNet_v2_bn,
     }
 
     print '\n\n\n'+sys.argv[1]
-    score_val_all = []
-    score_tst_all = []
-    for seg in [1,2,3] :
-        print '\nDoing: %d'%(seg)
-        trn_data, val_data, tst_data = getData(mode=seg, resize=Model_Feature['InputShape'][0:2])
-        score_val_i, score_tst_i = trainTest(trn_data, val_data, tst_data, ModelFunction=hm[sys.argv[1]])
-        score_val_all.append(score_val_i)
-        score_tst_all.append(score_tst_i)
-    score_val_all = [sum([score_val_all[j][i] for j in range(3)])/3 for i in range(CNN_Feature['epochs'] - CNN_Feature['ignore_print_top'])]
-    score_tst_all = [sum([score_tst_all[j][i] for j in range(3)])/3 for i in range(CNN_Feature['epochs'] - CNN_Feature['ignore_print_top'])]
-    max_val = max(score_val_all)
-    for i, val in enumerate(score_val_all) :
-        if val >= max_val :
-            max_tst = score_tst_all[i]
-    print '%.4f'%(max_tst), '%.4f'%(max_val)
-    print '\n\n\n'
+    #for seg in [1,2,3] :
+    seg = int(sys.argv[2])
+
+    print '\nDoing: %d'%(seg)
+    trn_data, val_data, tst_data = getData(mode=seg, resize=Model_Feature['InputShape'][0:2])
+    score_val_i, score_tst_i = trainTest(trn_data, val_data, tst_data, ModelFunction=hm[sys.argv[1]])
+
     #"""
     
 
